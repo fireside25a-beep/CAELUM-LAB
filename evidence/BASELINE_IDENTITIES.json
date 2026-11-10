@@ -1,0 +1,14 @@
+[
+  {
+    "archive": "01-CAELUM_SCIENTIFIC_LAB_0.3.0_R1_COMPLETE_20261110.zip",
+    "bytes": 2636260,
+    "sha256": "d6422e0c45678b200ccc673549f8f64f3358d6e3be81921fc966e2b4e4922402",
+    "policy": "Preserved outside this single current release."
+  },
+  {
+    "archive": "CAELUM_SCIENTIFIC_LAB_0.3.1_FULL_VOLUME_20261110.zip",
+    "bytes": 18348884,
+    "sha256": "de1fef48e0dae9bb71a03ec424432f7fff0c668b607cec20587231a4bbf4a6df",
+    "policy": "Preserved outside this single current release."
+  }
+]

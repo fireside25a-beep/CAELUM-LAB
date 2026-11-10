@@ -1,0 +1,15 @@
+==4283== Memcheck, a memory error detector
+==4283== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==4283== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==4283== Command: /workspace/scratch/2b0b64213ca4/work/v04-final/debug/caelum-lab-tests /workspace/scratch/2b0b64213ca4/work/v04-final/debug
+==4283== Parent PID: 1902
+==4283== 
+==4283== 
+==4283== HEAP SUMMARY:
+==4283==     in use at exit: 0 bytes in 0 blocks
+==4283==   total heap usage: 2,112 allocs, 2,112 frees, 9,022,416 bytes allocated
+==4283== 
+==4283== All heap blocks were freed -- no leaks are possible
+==4283== 
+==4283== For lists of detected and suppressed errors, rerun with: -s
+==4283== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

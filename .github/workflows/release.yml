@@ -1,0 +1,60 @@
+name: Prepare release
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing version tag to package, such as v0.4.0
+        type: string
+        required: true
+        default: v0.4.0
+permissions:
+  contents: read
+concurrency:
+  group: prepare-release-${{ inputs.tag }}
+  cancel-in-progress: false
+jobs:
+  draft:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    env:
+      RELEASE_TAG: ${{ inputs.tag }}
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Validate requested tag syntax
+        shell: bash
+        run: '[[ "$RELEASE_TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]'
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ inputs.tag }}
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Validate the exact tagged repository
+        run: |
+          python -m pip install -r verification/publication/requirements.txt
+          python verification/publication/check_repository.py
+          python verify_integrity.py
+          git rev-parse --verify "refs/tags/$RELEASE_TAG^{commit}"
+      - name: Exercise qualified binaries
+        run: python verification/run_native_profiles.py
+      - name: Package application and complete research assets
+        run: python verification/publication/package_release.py --output dist --expected-tag "$RELEASE_TAG"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: CAELUM-release-assets
+          path: dist/*
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 14
+      - name: Create a draft for owner review
+        shell: bash
+        run: |
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            echo "A release already exists for this tag; refusing to overwrite it." >&2
+            exit 1
+          fi
+          gh release create "$RELEASE_TAG" dist/*.zip dist/SHA256SUMS.txt dist/PACKAGE_REPORT.json --verify-tag --draft --title "CAELUM $RELEASE_TAG" --notes-file docs/RELEASE_NOTES.md

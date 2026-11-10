@@ -1,0 +1,2368 @@
+[
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30264909387866928\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.3026522860363135\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30265486525982022\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30265486525982022\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1000/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.24424912901100529\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.2441449221704714\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.24414078303522485\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.24414078303522485\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1001/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30814962160561615\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30789892193602292\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30789613929475673\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30789613929475673\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1002/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.32802213341465658\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.32801432567945032\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.32802438382211779\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.32802438382211779\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1003/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.27500703195888321\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.27495467239848853\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.27495454174714923\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.27495454174714923\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1004/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.35732537288446092\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.35732537288446092\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29471149079338449\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29471149079338449\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1005/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31517176667385161\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31557148034924914\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31559422187481956\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31559422187481956\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1006/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30010784519251593\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29999885838154666\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29999999931478211\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29999999931478211\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1007/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.27656363035540565\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.26662523196239235\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.26608290534379581\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.26608290534379581\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1008/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28916113941332033\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28912968568424985\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28913664205665451\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28913664205665451\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1009/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30783773818080534\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30757178805564256\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30788663243637637\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30788663243637637\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1010/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29462911714302981\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29484457203463538\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29461843247005487\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29461843247005487\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1011/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.50633192003487926\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28072187415399213\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28071338149287589\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28071338149287589\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1012/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30528661931054907\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30528661931054907\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30528675031483182\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30528675031483182\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1013/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29896619569187544\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29517627391856061\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29462659182952866\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29462659182952866\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1014/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29189674034264051\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29189674034264051\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29189039376716558\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29189039376716558\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1015/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30513487784649407\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30527693267871986\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30528655656076137\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.30528655656076137\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1016/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31545840694605004\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31557677211127971\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31559466699032845\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31559466699032845\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1017/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.2999996006486228\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29999202560300448\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29999999561440804\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29999999561440804\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1018/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28639328168178674\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28635336308381265\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28635641954259461\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28635641954259461\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1019/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.2752967479028654\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.27496901906604454\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.27495454947319298\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.27495454947319298\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1020/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.26632970667945394\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.26658907567600815\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.2660895650703512\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.2660895650703512\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1021/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31298032223143074\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.3129634546025809\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31304938923517983\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31304938923517983\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1022/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29738002464618668\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29791859443483643\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29732161892709175\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29732161892709175\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1023/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.2749406176124804\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.27495190931652325\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.27495454020204058\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.27495454020204058\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1024/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28695653868021526\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28636899575139652\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28635666425050182\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28635666425050182\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1025/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.2946185120104477\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.2946208400080052\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29461839850914961\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29461839850914961\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1026/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28913886752905049\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.289642198077535\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28914370705144532\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.28914370705144532\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1027/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31305060237690574\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31305060237690574\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31304951737535602\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.31304951737535602\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1028/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/random"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29189181487708687\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/random"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29189181487708687\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/round_robin"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29189041578863995\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29189041578863995\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/cost_eig"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/recorded.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/recorded"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29189041578863995\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/recorded"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/rdseed.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/rdseed"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29189041578863995\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/rdseed"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/1029/rdrand.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/rdrand"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.29189041578863995\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/rdrand"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run",
+      "/tmp/caelum-preregistered-study-lj7re76z/polynomial/protocol.json",
+      "/tmp/caelum-preregistered-study-lj7re76z/polynomial/run",
+      "3"
+    ],
+    "returncode": 0,
+    "stdout": "phase=3 steps=3 cost=3 holdout_rmse=0.050818939827022333\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-resume",
+      "/tmp/caelum-preregistered-study-lj7re76z/polynomial/run"
+    ],
+    "returncode": 0,
+    "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.051010672857752688\n",
+    "stderr": ""
+  },
+  {
+    "args": [
+      "lab-run-replay",
+      "/tmp/caelum-preregistered-study-lj7re76z/polynomial/run"
+    ],
+    "returncode": 0,
+    "stdout": "lab-run-replay: ok\n",
+    "stderr": ""
+  }
+]

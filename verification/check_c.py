@@ -1,0 +1,7 @@
+"""Bounded proof of the actual Philox C implementation, explicitly scoped."""
+import hashlib,json,pathlib,subprocess,sys,time
+root=pathlib.Path(__file__).resolve().parents[1];solver=root/'verification/vendor/cbmc-linux-x86_64/cbmc';harness=root/'verification/philox_cbmc.c';source=root/'src/random_v2.c'
+command=[str(solver),'-I',str(root/'include'),str(harness),str(source),'--function','main','--unwind','11','--unwinding-assertions','--bounds-check','--pointer-check','--signed-overflow-check','--slice-formula']
+start=time.monotonic();r=subprocess.run(command,capture_output=True,text=True,timeout=90)
+if r.returncode or 'VERIFICATION SUCCESSFUL' not in r.stdout:print(r.stdout+r.stderr);sys.exit(1)
+print(json.dumps({'status':'PASS','tool':subprocess.check_output([str(solver),'--version'],text=True).strip(),'seconds':time.monotonic()-start,'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'harness_sha256':hashlib.sha256(harness.read_bytes()).hexdigest(),'tool_sha256':hashlib.sha256(solver.read_bytes()).hexdigest(),'scope':'Actual ten-round C function with arbitrary 128-bit counter and 64-bit key: valid-array and in-place alias memory safety, signed arithmetic safety, nonmutation of separate input counter, and all loop unwinding assertions. Null-pointer refusal is included.','excluded':'Not a proof of distribution quality, cryptographic security, all RNG APIs, all C code, physical entropy, or scientific validity. Known-answer differential tests are separate.','stdout':r.stdout,'stderr':r.stderr},indent=2))

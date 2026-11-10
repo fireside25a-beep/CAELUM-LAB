@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "checker": "valgrind-3.24.0",
+  "targets": 18,
+  "results": [
+    {
+      "target": "native_contracts",
+      "exit_code": 0,
+      "stdout": "PASS: 68 concrete native assertions; QR, caps, tamper, adapter, CSV, CPUID, RIP, hardware instruction branches\n",
+      "stderr": ""
+    },
+    {
+      "target": "platform_probe",
+      "exit_code": 0,
+      "stdout": "abi=65539 arch_x86_64=1 rdrand=1 rdseed=1 rdtscp=1 osxsave=1 avx=1 invariant_tsc=1 max_leaf=13 extended_leaf=2147483656\nrip_native_instruction_address=0x4861370 (PIE/ASLR-dependent, not entropy)\nrdtscp_ticks=30281427850752 aux=4 (telemetry, not entropy)\nrflags=0x0000000000000004 (status, not entropy)\nxcr0=0x0000000000000007 (OS-enabled extended state)\n",
+      "stderr": ""
+    },
+    {
+      "target": "exchange_contracts",
+      "exit_code": 0,
+      "stdout": "PASS native Arrow, DLPack, stride and ONNX round trips, malformed input rejection\nnative_exchange_checks=63\n",
+      "stderr": ""
+    },
+    {
+      "target": "science_contracts",
+      "exit_code": 0,
+      "stdout": "PASS science native checks=21778 with 1600 exhaustive capsule bit flips, polynomial/dynamics, effects, Holm, active-grid, ONNX\n",
+      "stderr": ""
+    },
+    {
+      "target": "dynamics_contracts",
+      "exit_code": 0,
+      "stdout": "Measured forward=3.68412498851e-05 backward_observed=3.68759943353e-05 cycle=8.33671152101e-17 peak=1.94289029309e-16\nPASS midpoint inverse and strict future-block checks=8700\n",
+      "stderr": ""
+    },
+    {
+      "target": "parser_mutations",
+      "exit_code": 0,
+      "stdout": "PASS 100000 bounded parser mutations: 1034 accepted, 98966 rejected\n",
+      "stderr": ""
+    },
+    {
+      "target": "lab_engine_contracts",
+      "exit_code": 0,
+      "stdout": "PASS 177 lab/random/units/causal/learning/checkpoint assertions\n",
+      "stderr": ""
+    },
+    {
+      "target": "release_regressions",
+      "exit_code": 0,
+      "stdout": "PASS mixed-component midpoint/reverse regressions\n",
+      "stderr": ""
+    },
+    {
+      "target": "safety_basis_alias",
+      "exit_code": 0,
+      "stdout": "PASS basis_alias\n",
+      "stderr": ""
+    },
+    {
+      "target": "safety_basis_atomic",
+      "exit_code": 0,
+      "stdout": "PASS basis_atomic\n",
+      "stderr": ""
+    },
+    {
+      "target": "safety_holm_overlap",
+      "exit_code": 0,
+      "stdout": "PASS holm_overlap\n",
+      "stderr": ""
+    },
+    {
+      "target": "safety_matrix_span",
+      "exit_code": 0,
+      "stdout": "PASS matrix_span\n",
+      "stderr": ""
+    },
+    {
+      "target": "safety_dlpack_flags",
+      "exit_code": 0,
+      "stdout": "PASS dlpack_flags\n",
+      "stderr": ""
+    },
+    {
+      "target": "safety_arrow_dictionary",
+      "exit_code": 0,
+      "stdout": "PASS arrow_dictionary\n",
+      "stderr": ""
+    },
+    {
+      "target": "safety_csv_nul",
+      "exit_code": 0,
+      "stdout": "PASS csv_nul\n",
+      "stderr": ""
+    },
+    {
+      "target": "safety_midpoint_branch",
+      "exit_code": 0,
+      "stdout": "PASS midpoint_branch\n",
+      "stderr": ""
+    },
+    {
+      "target": "actual_science_consumer",
+      "exit_code": 0,
+      "stdout": "PASS science external C consumer: terms=3 prediction=1.2850000000000001\n",
+      "stderr": ""
+    },
+    {
+      "target": "actual_sdk_consumer",
+      "exit_code": 0,
+      "stdout": "SDK consumer: prediction=7, Arrow/DLPack round trips=PASS\n",
+      "stderr": ""
+    }
+  ]
+}

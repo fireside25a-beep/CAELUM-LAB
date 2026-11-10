@@ -1,0 +1,1 @@
+lab=experiment_a source=1234 seed=0000000000001234 attempts=0 receipt=/workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/cases/alternate.cpr

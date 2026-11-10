@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "native": "Linux X11",
+  "actual_button_events": [
+    "Run",
+    "Stop",
+    "Resume",
+    "Replay"
+  ],
+  "stopped_steps": 1,
+  "window": 4194305,
+  "run_result": {
+    "schema": 1,
+    "phase": 4,
+    "steps": 10,
+    "models": 2,
+    "rejected_models": 0,
+    "cost": 10,
+    "holdout_rmse": 0.4,
+    "ensemble_entropy": 3.607256059273397e-17,
+    "split_conformal_holdout_coverage": 0,
+    "causal_status": 1,
+    "finite_model_effect": 0.6000000000000001,
+    "finite_model_support": [
+      -0.6000000000000001,
+      0.6000000000000001
+    ],
+    "source": "f9cf195683d46528dadf3b2072304a4ebfc5a90d0bdfb21fb38b9507a88f46ff",
+    "build": "91b5dc288c908e0ce1910d5d3364f83c2469865d817594275f2fff06a2d7518a",
+    "checkpoint_sha256": "7306cd301e8f011d64e8b2c55bac638794706c69309305e5c213b9a43f386d21",
+    "root_seed": "0000000012345678",
+    "root_stream": "0000000000000001",
+    "derived_seed": "6f746647dc682389",
+    "entropy_source": 0,
+    "hardware_attempts": 0
+  },
+  "scope": "Headless X server with the real native workbench and core; not Windows/macOS execution evidence."
+}

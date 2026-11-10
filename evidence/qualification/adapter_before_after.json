@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "code": 5,
+    "bytes_after": 32,
+    "existing_destination_preserved": false,
+    "stderr": "FAIL adapter exchange: io_error\n",
+    "module_sha256": "ee533f4189861548c06e022d7558b7c6759715425ccec7df2aa333da9ce268c2"
+  },
+  "current": {
+    "code": 5,
+    "bytes_after": 135,
+    "existing_destination_preserved": true,
+    "stderr": "FAIL adapter exchange: io_error\n"
+  },
+  "status": "PASS_defect_reproduced_and_fixed"
+}

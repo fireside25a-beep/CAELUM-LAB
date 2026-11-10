@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "killed_mutants": 3,
+  "scope": "Three deliberate negative controls, not a claimed exhaustive mutation score. Current candidate sources were never edited.",
+  "results": [
+    {
+      "mutation": "generator_multiplier",
+      "expected": "test failure",
+      "observed_exit": 8,
+      "test": "lab_engine_contracts",
+      "output": "Test project /tmp/caelum-mutation-7bs36vge/build\n    Start 7: lab_engine_contracts\n1/1 Test #7: lab_engine_contracts .............***Failed    0.02 sec\nFAIL line 26: !memcmp(actual,expected[k],sizeof(actual))\n\n\n0% tests passed, 1 tests failed out of 1\n\nTotal Test time (real) =   0.02 sec\n\nThe following tests FAILED:\n\t  7 - lab_engine_contracts (Failed)\nErrors while running CTest\n"
+    },
+    {
+      "mutation": "midpoint_tolerance",
+      "expected": "test failure",
+      "observed_exit": 8,
+      "test": "release_regressions",
+      "output": "Test project /tmp/caelum-mutation-64a3zkq8/build\n    Start 8: release_regressions\n1/1 Test #8: release_regressions ..............***Failed    0.00 sec\nFAIL line 12: cp_dynamics_step_midpoint(f,2,x,1,next)==CP_OK\n\n\n0% tests passed, 1 tests failed out of 1\n\nTotal Test time (real) =   0.00 sec\n\nThe following tests FAILED:\n\t  8 - release_regressions (Failed)\nErrors while running CTest\n"
+    },
+    {
+      "mutation": "huber_unweighted",
+      "expected": "test failure",
+      "observed_exit": 8,
+      "test": "lab_engine_contracts",
+      "output": "Test project /tmp/caelum-mutation-9a4uzkse/build\n    Start 7: lab_engine_contracts\n1/1 Test #7: lab_engine_contracts .............***Failed    0.00 sec\nFAIL line 78: fabs(m.beta[1]-2)<.01\n\n\n0% tests passed, 1 tests failed out of 1\n\nTotal Test time (real) =   0.00 sec\n\nThe following tests FAILED:\n\t  7 - lab_engine_contracts (Failed)\nErrors while running CTest\n"
+    }
+  ]
+}

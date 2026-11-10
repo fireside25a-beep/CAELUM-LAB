@@ -1,0 +1,12 @@
+; CAELUM exact-arithmetic obligation: nonlinear_branch_negative_control
+(set-option :timeout 30000)
+(set-logic QF_NRA)
+(declare-const x Real)
+(declare-const z Real)
+(declare-const w Real)
+(assert (= x (- 3)))
+(assert (> z 4))
+(assert (= (- z x) (+ 5 (* 5 (/ (+ x z) 2) (/ (+ x z) 2)))))
+(assert (= (- w z) (- (- 5) (* 5 (/ (+ z w) 2) (/ (+ z w) 2)))))
+(assert (not (= w x)))
+(check-sat)

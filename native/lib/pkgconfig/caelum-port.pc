@@ -1,0 +1,9 @@
+prefix=${pcfiledir}/../../
+libdir=${pcfiledir}/..
+includedir=${prefix}/include/caelum
+
+Name: caelum-port
+Description: CAELUM native scientific model interchange
+Version: 0.4.0
+Libs: -L${libdir} -lcaelum_port
+Cflags: -I${includedir}

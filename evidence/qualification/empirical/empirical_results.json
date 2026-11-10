@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "origin": "Previously published physical chamber measurements collected by Gamella et al.; no chamber was operated here.",
+  "dataset": "lt_malus_v1/white_255.csv",
+  "rows": 1000,
+  "input_columns": [
+    "pol_1",
+    "pol_2"
+  ],
+  "input_transform": "degrees to radians; no target transformation",
+  "target_column": "ir_3",
+  "target_unit": "Original recorded sensor output units; no conversion to SI irradiance claimed.",
+  "source_archive_md5": "cc49b95d85410e0b5ea3bcd1479428e3",
+  "source_archive_sha256": "584490fc05191c21debd75c70c94ee80358f66482694f98c21f405d695f1b3e9",
+  "measurement_csv_sha256": "c92a5519ee2d171f5cbe668f014586c72eb1677856249038fe8359145c867c50",
+  "preregistration_sha256": "c26e6a5aa68dde81035dc999617426bf5e02169c5cbff1dc69d221f5d0833141",
+  "source_identity": "f9cf195683d46528dadf3b2072304a4ebfc5a90d0bdfb21fb38b9507a88f46ff",
+  "build_identity": "91b5dc288c908e0ce1910d5d3364f83c2469865d817594275f2fff06a2d7518a",
+  "models": [
+    {
+      "template": "intercept + a*cos(theta_1-theta_2)^2",
+      "coefficients": [
+        122.65918256809826,
+        2801.8828262353018
+      ],
+      "training_bic": 5333.695828644332,
+      "holdout_rmse": 60.05244864838005,
+      "native_numpy_max_abs_prediction_error": 5.9117155615240335e-12
+    },
+    {
+      "template": "intercept + a*cos(theta_1)^2*cos(theta_1-theta_2)^2",
+      "coefficients": [
+        975.8320877538998,
+        2302.5648241622457
+      ],
+      "training_bic": 7980.130169132721,
+      "holdout_rmse": 707.9609563865657,
+      "native_numpy_max_abs_prediction_error": 3.637978807091713e-12
+    },
+    {
+      "template": "intercept + a*theta_1 + b*theta_2",
+      "coefficients": [
+        1550.8523055400963,
+        -42.15346564951161,
+        4.759388222095897
+      ],
+      "training_bic": 8303.060527142243,
+      "holdout_rmse": 1007.1696682477547,
+      "native_numpy_max_abs_prediction_error": 3.183231456205249e-12
+    }
+  ],
+  "selected_by_training_bic": 0,
+  "selected_conformal_radius": 138.600973877029,
+  "selected_holdout_interval_coverage": 0.97,
+  "limits": "This is a measured-data predictive evaluation of supplied physical templates, not automated discovery of Malus law or new physical causal proof. Publish all measured failures."
+}

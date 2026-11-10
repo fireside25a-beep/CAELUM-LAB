@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "current_native_cases": [
+    {
+      "case": "known_discover",
+      "code": 0
+    },
+    {
+      "case": "known_replay",
+      "code": 0
+    },
+    {
+      "case": "known_export",
+      "code": 0
+    },
+    {
+      "case": "known_raw_prediction",
+      "code": 0
+    },
+    {
+      "case": "known_onnx_export",
+      "code": 0
+    },
+    {
+      "case": "known_onnx_import",
+      "code": 0
+    },
+    {
+      "case": "alternate_discover",
+      "code": 0
+    },
+    {
+      "case": "alternate_replay",
+      "code": 0
+    },
+    {
+      "case": "alternate_export",
+      "code": 0
+    },
+    {
+      "case": "alternate_raw_prediction",
+      "code": 0
+    },
+    {
+      "case": "alternate_onnx_export",
+      "code": 0
+    },
+    {
+      "case": "alternate_onnx_import",
+      "code": 0
+    },
+    {
+      "case": "dynamics_uniform",
+      "code": 0
+    },
+    {
+      "case": "dynamics_irregular",
+      "code": 0
+    },
+    {
+      "case": "randomized_effect",
+      "code": 0
+    }
+  ],
+  "capsule_onnx_roundtrip": "byte-identical"
+}

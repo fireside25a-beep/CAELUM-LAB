@@ -1,0 +1,34 @@
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /workspace/scratch/2b0b64213ca4/work/v04-final/debug
+[  8%] Built target caelum-parser-fuzz
+[ 10%] Building C object CMakeFiles/caelum_port.dir/src/identity.c.o
+[ 12%] Building C object CMakeFiles/caelum_port.dir/src/causal.c.o
+[ 14%] Building C object CMakeFiles/caelum_port.dir/src/lab.c.o
+[ 16%] Linking C shared library libcaelum_port.so
+[ 50%] Built target caelum_port
+[ 52%] Linking C executable caelum-exchange-tests
+[ 54%] Linking C executable caelum-port
+[ 56%] Linking C shared module cp_linear_exchange.so
+[ 58%] Linking C executable caelum-port-tests
+[ 62%] Built target cp_linear_exchange
+[ 64%] Built target caelum-port
+[ 66%] Built target caelum-exchange-tests
+[ 68%] Linking C executable caelum-science-tests
+[ 70%] Linking C executable caelum-dynamics-tests
+[ 72%] Built target caelum-port-tests
+[ 74%] Building C object CMakeFiles/caelum-lab-tests.dir/tests/lab_tests.c.o
+[ 76%] Linking C executable caelum-release-regressions
+[ 78%] Built target caelum-science-tests
+[ 80%] Built target caelum-dynamics-tests
+[ 82%] Linking C executable caelum-safety-tests
+[ 84%] Built target caelum-release-regressions
+[ 86%] Linking C executable caelum-science-consumer
+[ 88%] Linking C executable caelum-consumer-example
+[ 90%] Linking C executable caelum-lab-tests
+[ 92%] Built target caelum-safety-tests
+[ 94%] Built target caelum-science-consumer
+[ 96%] Linking C executable caelum-workbench
+[ 96%] Built target caelum-lab-tests
+[ 98%] Built target caelum-consumer-example
+[100%] Built target caelum-workbench

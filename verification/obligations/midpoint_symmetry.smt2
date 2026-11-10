@@ -1,0 +1,10 @@
+; CAELUM exact-arithmetic obligation: midpoint_symmetry
+(set-option :timeout 30000)
+(set-logic QF_NRA)
+(declare-const x Real)
+(declare-const z Real)
+(declare-const h Real)
+(declare-const fmid Real)
+(assert (= (- z x) (* h fmid)))
+(assert (not (= (- x z) (* (- h) fmid))))
+(check-sat)

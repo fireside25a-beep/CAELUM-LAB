@@ -1,0 +1,5 @@
+CAELUM-POLYNOMIAL-BASIS-v1
+raw_inputs=2
+transformed_features=2
+feature_0=x0^2*x1^0*x2^0
+feature_1=x0^1*x1^1*x2^0

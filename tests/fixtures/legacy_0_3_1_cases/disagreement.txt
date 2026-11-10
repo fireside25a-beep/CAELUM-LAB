@@ -1,0 +1,1 @@
+kind=proposed_only enumerated=81 maximum_disagreement=0.79999999999999538 modelA=12.250000000000002 modelB=13.049999999999997 x0=2 x1=-2

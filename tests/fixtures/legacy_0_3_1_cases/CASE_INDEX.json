@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "known_discover",
+      "exit_code": 0
+    },
+    {
+      "case": "known_replay",
+      "exit_code": 0
+    },
+    {
+      "case": "known_export",
+      "exit_code": 0
+    },
+    {
+      "case": "known_onnx_export",
+      "exit_code": 0
+    },
+    {
+      "case": "known_onnx_import",
+      "exit_code": 0
+    },
+    {
+      "case": "alternate_discover",
+      "exit_code": 0
+    },
+    {
+      "case": "alternate_replay",
+      "exit_code": 0
+    },
+    {
+      "case": "alternate_export",
+      "exit_code": 0
+    },
+    {
+      "case": "alternate_onnx_export",
+      "exit_code": 0
+    },
+    {
+      "case": "alternate_onnx_import",
+      "exit_code": 0
+    },
+    {
+      "case": "disagreement",
+      "exit_code": 0
+    },
+    {
+      "case": "randomized_effect",
+      "exit_code": 0
+    },
+    {
+      "case": "dynamics_uniform",
+      "exit_code": 0
+    },
+    {
+      "case": "dynamics_irregular",
+      "exit_code": 0
+    }
+  ],
+  "capsule_onnx_roundtrip": "byte-identical"
+}

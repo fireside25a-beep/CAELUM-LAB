@@ -1,0 +1,10 @@
+{
+  "dataset": "lt_malus_v1",
+  "authors": "Juan L. Gamella, Jonas Peters, Peter Buhlmann",
+  "doi": "10.1038/s42256-024-00964-x",
+  "origin": "https://github.com/juangamella/causal-chamber/tree/main/datasets/lt_malus_v1",
+  "download": "https://causalchamber.s3.eu-central-1.amazonaws.com/downloadables/lt_malus_v1.zip",
+  "license": "CC BY 4.0",
+  "archive_sha256": "584490fc05191c21debd75c70c94ee80358f66482694f98c21f405d695f1b3e9",
+  "transformation": "The original downloaded archive is unchanged. The study converts commanded polarizer degrees to radians and reserves fixed row blocks; its derived predictions are separate."
+}

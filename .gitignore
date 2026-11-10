@@ -1,0 +1,13 @@
+# Local repository, build and experiment outputs
+/build*/
+/dist/
+/runs/
+/.venv/
+/.venv-*/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*.caelum-pending
+*.caelum-??????
+# Qualified native binaries and nested research/data ZIPs are intentional payload.

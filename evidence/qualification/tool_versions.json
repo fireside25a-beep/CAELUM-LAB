@@ -1,0 +1,25 @@
+{
+  "python": "3.12.14",
+  "external_oracles": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "statsmodels": "0.15.0",
+    "torch": "2.15.0+cpu",
+    "protobuf": "7.36.2",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.31.1",
+    "pyarrow": "26.0.1"
+  },
+  "native_compilers": {
+    "gcc": "cc (Debian 14.2.0-19) 14.2.0",
+    "clang": "19.1.7, actual sanitizer/analyzer logs retained"
+  },
+  "tools": {
+    "cmake": "cmake version 4.4.4",
+    "z3": "Z3 version 5.4.0 - 64 bit",
+    "cbmc": "6.11.0 (cbmc-6.11.0)",
+    "valgrind": "3.24.0, actual logs retained"
+  },
+  "scope": "Host execution evidence only; no Windows/macOS native execution is implied."
+}

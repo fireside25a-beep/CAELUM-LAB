@@ -1,0 +1,16 @@
+-- Install configuration: "Release"
+-- Installing: /workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/lib/libcaelum_port.so.0.4.0
+-- Up-to-date: /workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/lib/libcaelum_port.so.1
+-- Set non-toolchain portion of runtime path of "/workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/lib/libcaelum_port.so.0.4.0" to "$ORIGIN/../lib"
+-- Up-to-date: /workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/lib/libcaelum_port.so
+-- Installing: /workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/bin/caelum-port
+-- Set non-toolchain portion of runtime path of "/workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/bin/caelum-port" to "$ORIGIN/../lib"
+-- Installing: /workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/lib/cp_linear_exchange.so
+-- Set non-toolchain portion of runtime path of "/workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/lib/cp_linear_exchange.so" to "$ORIGIN/../lib"
+-- Up-to-date: /workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/include/caelum/caelum_port.h
+-- Up-to-date: /workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/include/caelum/caelum_exchange.h
+-- Up-to-date: /workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/include/caelum/caelum_science.h
+-- Up-to-date: /workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/include/caelum/caelum_lab.h
+-- Installing: /workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/lib/pkgconfig/caelum-port.pc
+-- Installing: /workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/bin/caelum-workbench
+-- Set non-toolchain portion of runtime path of "/workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/native/bin/caelum-workbench" to "$ORIGIN/../lib"

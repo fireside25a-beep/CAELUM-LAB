@@ -1,0 +1,1 @@
+PASS relocated installed CLI and pkg-config C consumer, paths with spaces, no loader environment, relative RUNPATH

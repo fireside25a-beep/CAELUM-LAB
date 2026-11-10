@@ -1,0 +1,418 @@
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/2b0b64213ca4/work/v04-final/debug
+[  8%] Built target caelum-parser-fuzz
+[ 50%] Built target caelum_port
+[ 54%] Built target caelum-port
+[ 60%] Built target cp_linear_exchange
+[ 64%] Built target caelum-port-tests
+[ 68%] Built target caelum-exchange-tests
+[ 76%] Built target caelum-science-tests
+[ 76%] Built target caelum-release-regressions
+[ 80%] Built target caelum-lab-tests
+[ 84%] Built target caelum-dynamics-tests
+[ 88%] Built target caelum-consumer-example
+[ 96%] Built target caelum-safety-tests
+[ 96%] Built target caelum-science-consumer
+[100%] Built target caelum-workbench
+Test project /workspace/scratch/2b0b64213ca4/work/v04-final/debug
+      Start  1: native_contracts
+ 1/18 Test  #1: native_contracts .................   Passed    0.04 sec
+      Start  2: platform_probe
+ 2/18 Test  #2: platform_probe ...................   Passed    0.01 sec
+      Start  3: exchange_contracts
+ 3/18 Test  #3: exchange_contracts ...............   Passed    0.05 sec
+      Start  4: science_contracts
+ 4/18 Test  #4: science_contracts ................   Passed    3.29 sec
+      Start  5: dynamics_contracts
+ 5/18 Test  #5: dynamics_contracts ...............   Passed    0.07 sec
+      Start  6: parser_mutations
+ 6/18 Test  #6: parser_mutations .................   Passed    0.36 sec
+      Start  7: lab_engine_contracts
+ 7/18 Test  #7: lab_engine_contracts .............   Passed    3.82 sec
+      Start  8: release_regressions
+ 8/18 Test  #8: release_regressions ..............   Passed    0.00 sec
+      Start  9: safety_basis_alias
+ 9/18 Test  #9: safety_basis_alias ...............   Passed    0.00 sec
+      Start 10: safety_basis_atomic
+10/18 Test #10: safety_basis_atomic ..............   Passed    0.00 sec
+      Start 11: safety_holm_overlap
+11/18 Test #11: safety_holm_overlap ..............   Passed    0.00 sec
+      Start 12: safety_matrix_span
+12/18 Test #12: safety_matrix_span ...............   Passed    0.00 sec
+      Start 13: safety_dlpack_flags
+13/18 Test #13: safety_dlpack_flags ..............   Passed    0.00 sec
+      Start 14: safety_arrow_dictionary
+14/18 Test #14: safety_arrow_dictionary ..........   Passed    0.01 sec
+      Start 15: safety_csv_nul
+15/18 Test #15: safety_csv_nul ...................   Passed    0.02 sec
+      Start 16: safety_midpoint_branch
+16/18 Test #16: safety_midpoint_branch ...........   Passed    0.00 sec
+      Start 17: actual_science_consumer
+17/18 Test #17: actual_science_consumer ..........   Passed    0.01 sec
+      Start 18: actual_sdk_consumer
+18/18 Test #18: actual_sdk_consumer ..............   Passed    0.00 sec
+
+100% tests passed out of 18
+
+Total Test time (real) =   7.70 sec
+abi=65539 arch_x86_64=1 rdrand=1 rdseed=1 rdtscp=1 osxsave=1 avx=1 invariant_tsc=1 max_leaf=28 extended_leaf=2147483681
+rip_native_instruction_address=0x7f39359a8370 (PIE/ASLR-dependent, not entropy)
+rdtscp_ticks=30268649508760 aux=5 (telemetry, not entropy)
+rflags=0x0000000000000202 (status, not entropy)
+xcr0=0x0000000000000007 (OS-enabled extended state)
+PASS external oracles: NumPy least-squares, Google Protobuf ONNX decode, PyTorch Gemm, PyTorch↔CAELUM versioned DLPack
+PASS 128 randomized native QR fits matched NumPy + scikit-learn; rank and NaN negatives passed
+PASS external science: 33633 cross-library/replay/corruption assertions; 40 independent datasets, 4 full bit-flip receipts, 256 random ONNX invalid inputs; elapsed=105.94s
+PASS independent dynamics oracle: 160 checks, 20 future-block datasets, matrix-solve forward/reverse and leakage perturbations
+PASS receipt source-alias rejection: 6 checks, hardlink/symlink/identical path preserved
+PASS scikit-learn bidirectional native bridge: 51 assertions; 10 fitted sklearn models, 1/2/5/12/16 inputs and ONNX traversal
+PASS randomized effect vs SciPy and Holm vs statsmodels: 733 assertions, 120 independent seeded trials, coverage=0.950 (observed benchmark statistic, not clinical coverage certification)
+{"status": "PASS", "checks": 271, "onnx": "1.23.2", "onnxruntime": "1.31.1", "pyarrow": "26.0.1"}
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "command": "fit",
+      "target": "data.csv",
+      "alias": "same",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "fit",
+      "target": "data.csv",
+      "alias": "hardlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "fit",
+      "target": "data.csv",
+      "alias": "symlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "onnx-export",
+      "target": "model.cpm",
+      "alias": "same",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "onnx-export",
+      "target": "model.cpm",
+      "alias": "hardlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "onnx-export",
+      "target": "model.cpm",
+      "alias": "symlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "onnx-import",
+      "target": "model.onnx",
+      "alias": "same",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "onnx-import",
+      "target": "model.onnx",
+      "alias": "hardlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "onnx-import",
+      "target": "model.onnx",
+      "alias": "symlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "export",
+      "target": "model.cpm",
+      "alias": "same",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "export",
+      "target": "model.cpm",
+      "alias": "hardlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "export",
+      "target": "model.cpm",
+      "alias": "symlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "import",
+      "target": "model.txt",
+      "alias": "same",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "import",
+      "target": "model.txt",
+      "alias": "hardlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "import",
+      "target": "model.txt",
+      "alias": "symlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-model",
+      "target": "data.csv",
+      "alias": "same",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-model",
+      "target": "data.csv",
+      "alias": "hardlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-model",
+      "target": "data.csv",
+      "alias": "symlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-model",
+      "target": "model.cpr",
+      "alias": "same",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-model",
+      "target": "model.cpr",
+      "alias": "hardlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-model",
+      "target": "model.cpr",
+      "alias": "symlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-basis",
+      "target": "data.csv",
+      "alias": "same",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-basis",
+      "target": "data.csv",
+      "alias": "hardlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-basis",
+      "target": "data.csv",
+      "alias": "symlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-basis",
+      "target": "model.cpr",
+      "alias": "same",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-basis",
+      "target": "model.cpr",
+      "alias": "hardlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-basis",
+      "target": "model.cpr",
+      "alias": "symlink",
+      "rejected": true,
+      "preserved": true,
+      "pass": true
+    },
+    {
+      "command": "lab-export-two-new-outputs",
+      "pass": true
+    },
+    {
+      "command": "predict-empty-feature",
+      "pass": true
+    }
+  ]
+}
+{"status": "PASS", "cases": 2880, "accepted": 1612, "refused": 1268, "paired_public_refusals": 0, "max_scaled_inverse_error": 3.0808688933348094e-14, "max_scaled_equation_residual": 1.080109280037914e-14}
+{
+  "status": "PASS",
+  "solver": "Z3 version 5.4.0 - 64 bit",
+  "proved_obligations": 11,
+  "negative_controls": 1,
+  "results": [
+    {
+      "obligation": "affine_inverse_unique.smt2",
+      "sha256": "ada6c0df8f125367c25fb6181ebeff121b62402493514348f2103a640fa5f29a",
+      "expected": "unsat",
+      "actual": "unsat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.06203878099950089
+    },
+    {
+      "obligation": "chronological_stencil.smt2",
+      "sha256": "fe856547863f530f588847122881aee74cb7983e1fd837f2ad428e6bf7730747",
+      "expected": "unsat",
+      "actual": "unsat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.028120304999902146
+    },
+    {
+      "obligation": "harmonic_energy.smt2",
+      "sha256": "4894ec426df002d33c9fdafb7bf60c322053fa45fb996b3be71353ba21aaa123",
+      "expected": "unsat",
+      "actual": "unsat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.04091672499998822
+    },
+    {
+      "obligation": "matrix_span.smt2",
+      "sha256": "af15c3cbe836665d389f89f3d4e7023474846d749cd5c9d559937f4fdbdddd16",
+      "expected": "unsat",
+      "actual": "unsat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.10853845500059833
+    },
+    {
+      "obligation": "midpoint_symmetry.smt2",
+      "sha256": "80386e071242b57e58f19ae269ad412f2337be9f56ef056bcbd66e6a4215541f",
+      "expected": "unsat",
+      "actual": "unsat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.023524488000475685
+    },
+    {
+      "obligation": "nonlinear_branch_negative_control.smt2",
+      "sha256": "e0f24bccee5fe813519ebc5f69e8dcde43ae1ec16a5ac92ff98a49675313cb99",
+      "expected": "sat",
+      "actual": "sat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.030163744999299524
+    },
+    {
+      "obligation": "nonuniform_quadratic_derivative.smt2",
+      "sha256": "116dd855570294e35ac3dce7f2f69664622d2b43e93da37678708ccdc985fb58",
+      "expected": "unsat",
+      "actual": "unsat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.025794717001190293
+    },
+    {
+      "obligation": "odd_multiplier_94d049bb133111eb.smt2",
+      "sha256": "532dae3e068f61fea410d54f9fba9dab1363012d395f086d115559518c011971",
+      "expected": "unsat",
+      "actual": "unsat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.09588532700036012
+    },
+    {
+      "obligation": "odd_multiplier_bf58476d1ce4e5b9.smt2",
+      "sha256": "ea927c507ed4555678dbfe77950705930677711750bab52821cffce0ed2a0dce",
+      "expected": "unsat",
+      "actual": "unsat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.01901542099949438
+    },
+    {
+      "obligation": "xor_shift_27.smt2",
+      "sha256": "3f59dd242e386050d7c73b9031152f276d44f15d5306f67b3cf2b8ec9f60b469",
+      "expected": "unsat",
+      "actual": "unsat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.027005834001101903
+    },
+    {
+      "obligation": "xor_shift_30.smt2",
+      "sha256": "a213af418a9c21fe7c61e3dd85113866e38e16fab6d8980c8971977c37a90c4e",
+      "expected": "unsat",
+      "actual": "unsat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.0185680680006044
+    },
+    {
+      "obligation": "xor_shift_31.smt2",
+      "sha256": "781700ed6a13cdfa3e1daff37fc6a9cd1c1d5613a22bd8009a3c836db16718bd",
+      "expected": "unsat",
+      "actual": "unsat",
+      "exit_code": 0,
+      "stderr": "",
+      "seconds": 0.023830939000617946
+    }
+  ]
+}
+PASS: first-party science + real external oracles completed without bypasses

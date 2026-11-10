@@ -1,0 +1,12 @@
+[
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "public_release_available": true
+  },
+  {
+    "name": "jsonschema",
+    "version": "4.26.0",
+    "public_release_available": true
+  }
+]

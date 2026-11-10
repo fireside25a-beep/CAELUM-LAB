@@ -1,0 +1,1 @@
+assignment=declared_randomized (not independently verified) control_n=215 treated_n=185 effect=1.1902844511348198 standard_error=0.04982337318203249 ci95=[1.0926324341097375,1.2879364681599021]

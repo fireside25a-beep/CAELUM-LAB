@@ -1,0 +1,47 @@
+[
+  {
+    "path": "native/bin/caelum-port",
+    "sha256": "8774c813a1eb2b3b04b246b16f59805c1e096fca47a84ca8d6aab1db9e15415d",
+    "bytes": 39048
+  },
+  {
+    "path": "native/bin/caelum-workbench",
+    "sha256": "fb1950f556beb927543db0bc862a22d93f797ec2fe2b87f0ae166c34fcff7549",
+    "bytes": 30664
+  },
+  {
+    "path": "native/include/caelum/caelum_exchange.h",
+    "sha256": "fd36924ab4f796bf41612bc13b88bbfbf7c6475de50b8a6c2c1dafcb045ac4c5",
+    "bytes": 2668
+  },
+  {
+    "path": "native/include/caelum/caelum_lab.h",
+    "sha256": "aff33f600936a247a151205c506cd1a1eaab7006ce425ef375612de81519f3a4",
+    "bytes": 5547
+  },
+  {
+    "path": "native/include/caelum/caelum_port.h",
+    "sha256": "485f63305bb02a9218c3dcf35b25ff04114209b45fec542c0eabde404619c1f2",
+    "bytes": 3946
+  },
+  {
+    "path": "native/include/caelum/caelum_science.h",
+    "sha256": "b0fd27f2c51e7fbd55f082cf2174ec7b144be872fa7fb3dfa60d56d1c7be7d13",
+    "bytes": 6579
+  },
+  {
+    "path": "native/lib/cp_linear_exchange.so",
+    "sha256": "e1a1d9d637baffd774c63c9dcad4595c46c810a403fda13b233159239fe5a4ba",
+    "bytes": 16632
+  },
+  {
+    "path": "native/lib/libcaelum_port.so.0.4.0",
+    "sha256": "9d35c404f3868bdaa5336ee12a70ec51d0cf4b9381576c4eedf523b90e9e05d8",
+    "bytes": 218448
+  },
+  {
+    "path": "native/lib/pkgconfig/caelum-port.pc",
+    "sha256": "2a212237402c8ef046c93f64dac7e01a1cbca67489a9b4265f6adad0c1daf774",
+    "bytes": 232
+  }
+]

@@ -1,0 +1,106 @@
+completed seed 1000
+completed seed 1001
+completed seed 1002
+completed seed 1003
+completed seed 1004
+completed seed 1005
+completed seed 1006
+completed seed 1007
+completed seed 1008
+completed seed 1009
+completed seed 1010
+completed seed 1011
+completed seed 1012
+completed seed 1013
+completed seed 1014
+completed seed 1015
+completed seed 1016
+completed seed 1017
+completed seed 1018
+completed seed 1019
+completed seed 1020
+completed seed 1021
+completed seed 1022
+completed seed 1023
+completed seed 1024
+completed seed 1025
+completed seed 1026
+completed seed 1027
+completed seed 1028
+completed seed 1029
+{
+  "status": "PASS",
+  "data": "known-truth generated mathematical test fixtures; no physical observations",
+  "preregistration_sha256": "cb4d636033805d40a469d7bdeb0acb37d179ba9a2a5503164a309faa7c096769",
+  "source_identity": "f9cf195683d46528dadf3b2072304a4ebfc5a90d0bdfb21fb38b9507a88f46ff",
+  "build_identity": "91b5dc288c908e0ce1910d5d3364f83c2469865d817594275f2fff06a2d7518a",
+  "numeric_assertions": 626,
+  "scm_enumeration_assertions": 9300,
+  "conformal_mean_coverage": 0.9504800000000001,
+  "conformal_ood_coverage_negative_control": 0.00138,
+  "active_runs": 120,
+  "policies": [
+    "random",
+    "round_robin",
+    "eig",
+    "cost_eig"
+  ],
+  "comparisons": [
+    {
+      "eig_vs": "random",
+      "eig_wins": 29,
+      "eig_losses": 1,
+      "ties": 0,
+      "mean_other_error_minus_eig_error": 0.03897914583159756,
+      "two_sided_sign_p": 5.774199962615967e-08
+    },
+    {
+      "eig_vs": "round_robin",
+      "eig_wins": 30,
+      "eig_losses": 0,
+      "ties": 0,
+      "mean_other_error_minus_eig_error": 0.013101496295604904,
+      "two_sided_sign_p": 1.862645149230957e-09
+    },
+    {
+      "eig_vs": "cost_eig",
+      "eig_wins": 0,
+      "eig_losses": 0,
+      "ties": 30,
+      "mean_other_error_minus_eig_error": 0.0,
+      "two_sided_sign_p": 1.0
+    }
+  ],
+  "polynomial_run": {
+    "schema": 1,
+    "phase": 4,
+    "steps": 10,
+    "models": 3,
+    "rejected_models": 0,
+    "cost": 10,
+    "holdout_rmse": 0.05101067285775269,
+    "ensemble_entropy": 0.6931471805599453,
+    "split_conformal_holdout_coverage": 0.945,
+    "causal_status": 0,
+    "finite_model_effect": 0,
+    "finite_model_support": [
+      0,
+      0
+    ],
+    "source": "f9cf195683d46528dadf3b2072304a4ebfc5a90d0bdfb21fb38b9507a88f46ff",
+    "build": "91b5dc288c908e0ce1910d5d3364f83c2469865d817594275f2fff06a2d7518a",
+    "checkpoint_sha256": "8fcf378cb5cd7954021ed2860a04593bbe9dbf386d17e736ad75775cf3c3d7a3",
+    "root_seed": "0000000000000000",
+    "root_stream": "0000000000000001",
+    "derived_seed": "1bff9eba7014e12b",
+    "entropy_source": 0,
+    "hardware_attempts": 0
+  },
+  "limitations": [
+    "Bounded finite SCM class, imported interventional measurements, explicit declared assumptions.",
+    "Equal unit costs make cost_eig an exact control, not evidence of cost-aware advantage.",
+    "Conformal coverage requires exchangeability; the OOD failure is retained.",
+    "Sign tests are descriptive unadjusted comparisons, not universal superiority claims."
+  ],
+  "python": "3.12.14"
+}

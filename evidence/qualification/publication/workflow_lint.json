@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "tool": "actionlint 1.7.12",
+  "optional_shellcheck": "not used; release shell guards separately executed",
+  "stdout": "",
+  "stderr": "",
+  "scope": "Local syntax/expression validation; GitHub runner execution is not claimed."
+}

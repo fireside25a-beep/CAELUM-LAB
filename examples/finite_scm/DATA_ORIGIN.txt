@@ -1,0 +1,1 @@
+Known-truth mathematical test fixture generated for verification. No physical measurements. This example demonstrates imported interventional outcomes; it does not operate a physical device.

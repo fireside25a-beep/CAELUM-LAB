@@ -1,0 +1,476 @@
+{
+  "status": "PASS",
+  "pair_trials": [
+    {
+      "mode": "CP_KILL_BEFORE_RENAME",
+      "n": 1,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_KILL_BEFORE_RENAME",
+      "n": 2,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_KILL_BEFORE_RENAME",
+      "n": 3,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_KILL_BEFORE_RENAME",
+      "n": 4,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_KILL_BEFORE_RENAME",
+      "n": 5,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_KILL_BEFORE_RENAME",
+      "n": 6,
+      "code": 86,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_KILL_BEFORE_RENAME",
+      "n": 7,
+      "code": 86,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_KILL_BEFORE_RENAME",
+      "n": 8,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_KILL_BEFORE_RENAME",
+      "n": 9,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_KILL_BEFORE_RENAME",
+      "n": 10,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_KILL_AFTER_RENAME",
+      "n": 1,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_KILL_AFTER_RENAME",
+      "n": 2,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_KILL_AFTER_RENAME",
+      "n": 3,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_KILL_AFTER_RENAME",
+      "n": 4,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_KILL_AFTER_RENAME",
+      "n": 5,
+      "code": 86,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_KILL_AFTER_RENAME",
+      "n": 6,
+      "code": 86,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_KILL_AFTER_RENAME",
+      "n": 7,
+      "code": 86,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_KILL_AFTER_RENAME",
+      "n": 8,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_KILL_AFTER_RENAME",
+      "n": 9,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_KILL_AFTER_RENAME",
+      "n": 10,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 1,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 2,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 3,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 4,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 5,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 6,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 7,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 8,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 9,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 10,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 11,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 12,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 13,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 14,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 15,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 16,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 17,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 18,
+      "code": 5,
+      "recovered": "old"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 19,
+      "code": 5,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 20,
+      "code": 5,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 21,
+      "code": 5,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 22,
+      "code": 5,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 23,
+      "code": 5,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 24,
+      "code": 5,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 25,
+      "code": 5,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 26,
+      "code": 5,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 27,
+      "code": 5,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 28,
+      "code": 5,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 29,
+      "code": 5,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 30,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 31,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 32,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 33,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 34,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 35,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 36,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 37,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 38,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 39,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "CP_FAIL_FSYNC",
+      "n": 40,
+      "code": 0,
+      "recovered": "new"
+    },
+    {
+      "mode": "second_crash/CP_KILL_AFTER_RENAME",
+      "n": 1,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "second_crash/CP_KILL_AFTER_RENAME",
+      "n": 2,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "second_crash/CP_KILL_AFTER_RENAME",
+      "n": 3,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "second_crash/CP_KILL_AFTER_RENAME",
+      "n": 4,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "second_crash/CP_KILL_AFTER_UNLINK",
+      "n": 1,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "second_crash/CP_KILL_AFTER_UNLINK",
+      "n": 2,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "second_crash/CP_KILL_AFTER_UNLINK",
+      "n": 3,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "second_crash/CP_KILL_AFTER_UNLINK",
+      "n": 4,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "second_crash/CP_KILL_AFTER_UNLINK",
+      "n": 5,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "second_crash/CP_KILL_AFTER_UNLINK",
+      "n": 6,
+      "code": 86,
+      "recovered": "old"
+    },
+    {
+      "mode": "dangling_alias",
+      "code": 1
+    },
+    {
+      "mode": "text_adapter_fsync",
+      "n": 1,
+      "code": 5
+    },
+    {
+      "mode": "text_adapter_fsync",
+      "n": 2,
+      "code": 5
+    },
+    {
+      "mode": "text_adapter_fsync",
+      "n": 3,
+      "code": 5
+    },
+    {
+      "mode": "text_adapter_fsync",
+      "n": 4,
+      "code": 0
+    },
+    {
+      "mode": "text_adapter_fsync",
+      "n": 5,
+      "code": 0
+    },
+    {
+      "mode": "text_adapter_fsync",
+      "n": 6,
+      "code": 0
+    },
+    {
+      "mode": "text_adapter_fsync",
+      "n": 7,
+      "code": 0
+    },
+    {
+      "mode": "text_adapter_RLIMIT_FSIZE",
+      "code": 5,
+      "existing_destination_preserved": true
+    },
+    {
+      "mode": "capsule_RLIMIT_FSIZE",
+      "code": 5,
+      "existing_destination_preserved": true
+    }
+  ],
+  "snapshot_replacements_checked": 1000,
+  "limits": "Local-process crash and fsync-failure testing; not a physical power-loss test. Pre-journal crashes may leave harmless staged temporary files; no automatic deletion of unknown user files."
+}

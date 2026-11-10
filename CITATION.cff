@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use CAELUM in research, please cite this software and the datasets you use."
+type: software
+title: "CAELUM Scientific Laboratory"
+version: "0.4.0"
+date-released: "2026-11-10"
+authors:
+  - family-names: "Moraru"
+    given-names: "Alexandru"
+license: Apache-2.0
+abstract: >-
+  A native C11 scientific laboratory for bounded mathematical discovery,
+  finite-model intervention selection, typed expressions, calibrated
+  prediction, numerical dynamics and reproducible scientific evidence.
+  The command line, desktop workbench and C SDK share one experiment authority.
+keywords:
+  - scientific computing
+  - experimental design
+  - causal inference
+  - reproducibility
+  - numerical methods
+  - machine learning
+references:
+  - type: article
+    title: "Causal chambers as a real-world physical testbed for AI methodology"
+    authors:
+      - family-names: "Gamella"
+        given-names: "Juan L."
+      - family-names: "Peters"
+        given-names: "Jonas"
+      - family-names: "Bühlmann"
+        given-names: "Peter"
+    journal: "Nature Machine Intelligence"
+    year: 2025
+    doi: "10.1038/s42256-024-00964-x"

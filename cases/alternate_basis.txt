@@ -1,0 +1,11 @@
+CAELUM-POLYNOMIAL-BASIS-v2
+raw_inputs=2
+transformed_features=3
+model_sha256=8e80d7c9b28ef69204e872e2789f257a81774a4a63eb84fff2980e24c0563eb3
+receipt_sha256=4912e0cf12cc6cfaacf064cad3d1247535511c322e5822c64cad0008bf4f0a0c
+data_sha256=0f4e534dd030a3ab95d198f9ddf483c8cab8fea66def0d5e4c6d578f7914b626
+units=unspecified
+feature_0=x0^2*x1^0*x2^0
+feature_1=x0^1*x1^1*x2^0
+feature_2=x0^0*x1^2*x2^0
+basis_sha256=e63ab189015a854469feb18a409bd70b9c0c8a9116cc61b6419d611735473a7a

@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "translation_units": 23,
+  "results": [
+    {
+      "file": "adapters/linear_exchange.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/adapter_loader.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/causal.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/cli.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/core.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/cpu.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/dynamics.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/engine.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/exchange.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/expression.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/identity.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/io.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/json.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/lab.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/locale_numeric.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/numeric.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/onnx.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/protocol.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/random_v2.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/science.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/sha256.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/uncertainty.c",
+      "code": 0,
+      "diagnostics": ""
+    },
+    {
+      "file": "src/workbench_x11.c",
+      "code": 0,
+      "diagnostics": ""
+    }
+  ]
+}

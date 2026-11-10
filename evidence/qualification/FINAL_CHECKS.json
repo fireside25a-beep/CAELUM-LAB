@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "source_identity": "f9cf195683d46528dadf3b2072304a4ebfc5a90d0bdfb21fb38b9507a88f46ff",
+  "production_build_identity": "91b5dc288c908e0ce1910d5d3364f83c2469865d817594275f2fff06a2d7518a",
+  "source_snapshot": "evidence/SOURCE_FILES.json",
+  "checks": [
+    {
+      "name": "build_debug",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/build_debug.log"
+    },
+    {
+      "name": "build_optimized",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/build_optimized.log"
+    },
+    {
+      "name": "build_sanitized",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/build_sanitized.log"
+    },
+    {
+      "name": "ctest_debug",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/ctest_debug.log"
+    },
+    {
+      "name": "ctest_optimized",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/ctest_optimized.log"
+    },
+    {
+      "name": "ctest_sanitized",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/ctest_sanitized.log"
+    },
+    {
+      "name": "external",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/external.log"
+    },
+    {
+      "name": "study",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/study.log"
+    },
+    {
+      "name": "edges",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/edges.log"
+    },
+    {
+      "name": "edges_asan",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/edges_asan.log"
+    },
+    {
+      "name": "file_commits",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/file_commits.log"
+    },
+    {
+      "name": "drift",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/drift.log"
+    },
+    {
+      "name": "empirical",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/empirical.log"
+    },
+    {
+      "name": "workbench",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/workbench.log"
+    },
+    {
+      "name": "mutations",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/mutations.log"
+    },
+    {
+      "name": "valgrind",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/valgrind.log"
+    },
+    {
+      "name": "cbmc",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/cbmc.log"
+    },
+    {
+      "name": "legacy_replay",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/legacy_replay.log"
+    },
+    {
+      "name": "install",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/install.log"
+    },
+    {
+      "name": "relocation",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/relocation.log"
+    },
+    {
+      "name": "workbench_asan",
+      "result": "PASS",
+      "log": "evidence/qualification/final_logs/workbench_asan.log"
+    }
+  ],
+  "separate_checks": {
+    "static_analysis": "23 units, zero diagnostics",
+    "packaged_profiles": "54/54 in isolated folders",
+    "public_abi": "71/71 definitions",
+    "file_failure_trials": 80,
+    "snapshot_checks": 1000,
+    "engine_edge_checks": 14
+  },
+  "rejected_attempts": "Earlier failed compile, stream-read, recovery, fixture collision and stale-workbench-run checks are retained in the audit-history archive; only successful corrected reruns count here."
+}

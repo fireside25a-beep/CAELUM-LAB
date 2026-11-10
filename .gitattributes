@@ -1,0 +1,20 @@
+# Preserve the exact bytes used by scientific manifests and replay receipts.
+* -text
+# Keep generated/vendor material out of language statistics without deleting it.
+native/** linguist-generated=true
+verification/native/** linguist-generated=true
+verification/vendor/** linguist-vendored=true
+verification/publication/cff-schema-1.2.0.json linguist-vendored=true
+evidence/** linguist-generated=true
+docs/assets/** linguist-generated=true
+docs/figures/** linguist-generated=true
+*.zip binary
+*.png binary
+*.cpm binary
+*.cpc binary
+*.onnx binary
+*.so binary
+
+# Keep website presentation tracked, but omit it from source archives.
+/README.md export-ignore
+/docs/assets/caelum-banner.svg export-ignore

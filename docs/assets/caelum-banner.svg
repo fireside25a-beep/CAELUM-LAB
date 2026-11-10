@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 235" role="img" aria-labelledby="title desc">
+<title id="title">CAELUM Scientific Laboratory</title><desc id="desc">A native scientific laboratory. Version 0.4.0, C11, Linux x86-64.</desc>
+<rect width="1200" height="235" fill="#000000"/>
+<path d="M48 190H1152" stroke="#35404b"/>
+<text x="48" y="104" fill="#f3f6f9" font-family="Arial, sans-serif" font-size="73" font-weight="600" letter-spacing="7">CAELUM</text>
+<text x="51" y="150" fill="#b5c0cb" font-family="Arial, sans-serif" font-size="24">A native scientific laboratory.</text>
+<text x="51" y="217" fill="#80d3da" font-family="monospace" font-size="15">HYPOTHESIS  /  EXPERIMENT  /  EVIDENCE</text>
+<text x="1152" y="217" text-anchor="end" fill="#a8b4c0" font-family="monospace" font-size="15">0.4.0  ·  C11  ·  LINUX x86-64</text>
+</svg>

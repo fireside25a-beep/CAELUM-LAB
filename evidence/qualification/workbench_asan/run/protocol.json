@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "experiment_kind": "caelum.discovery.v1",
+  "family": "finite_scm",
+  "policy": "eig",
+  "observations": "observations.csv",
+  "candidates": "candidates.csv",
+  "holdout": "holdout.csv",
+  "variables": [
+    {
+      "name": "x",
+      "unit": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 1,
+      "role": "treatment",
+      "controllable": true
+    },
+    {
+      "name": "y",
+      "unit": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower": 0,
+      "upper": 1,
+      "role": "response",
+      "controllable": false
+    }
+  ],
+  "entropy": {
+    "mode": "deterministic",
+    "seed": "12345678",
+    "stream": "1",
+    "purpose": "study/selection"
+  },
+  "assumptions": {
+    "interventions_authorized": true,
+    "fully_observed": true,
+    "iid_measurement_noise": true
+  },
+  "budget": {
+    "max_interventions": 10,
+    "max_cost": 10
+  },
+  "measurement_noise": 0.1,
+  "cost_per_action": 1,
+  "hypotheses": [
+    {
+      "parents": [
+        0,
+        1
+      ],
+      "probability_one": [
+        [
+          0.5
+        ],
+        [
+          0.2,
+          0.8
+        ]
+      ],
+      "prior": 1
+    },
+    {
+      "parents": [
+        0,
+        1
+      ],
+      "probability_one": [
+        [
+          0.5
+        ],
+        [
+          0.8,
+          0.2
+        ]
+      ],
+      "prior": 1
+    }
+  ]
+}

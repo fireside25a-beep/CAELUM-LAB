@@ -1,0 +1,441 @@
+{
+  "status": "PASS",
+  "executed_targets": 54,
+  "profiles": 3,
+  "loader_environment": "LD_LIBRARY_PATH and DYLD_LIBRARY_PATH removed",
+  "leak_scope": "Packaged ASan/UBSan default disables LSan because the validation host uses ptrace; separate full Valgrind evidence covers all 18 native targets.",
+  "results": [
+    {
+      "profile": "debug",
+      "test": "native_contracts",
+      "exit_code": 0,
+      "seconds": 0.01118067700008396,
+      "stdout": "PASS: 68 concrete native assertions; QR, caps, tamper, adapter, CSV, CPUID, RIP, hardware instruction branches\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "platform_probe",
+      "exit_code": 0,
+      "seconds": 0.0023176600006991066,
+      "stdout": "abi=65539 arch_x86_64=1 rdrand=1 rdseed=1 rdtscp=1 osxsave=1 avx=1 invariant_tsc=1 max_leaf=28 extended_leaf=2147483681\nrip_native_instruction_address=0x7f368f740370 (PIE/ASLR-dependent, not entropy)\nrdtscp_ticks=30788604365091 aux=3 (telemetry, not entropy)\nrflags=0x0000000000000206 (status, not entropy)\nxcr0=0x0000000000000007 (OS-enabled extended state)\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "exchange_contracts",
+      "exit_code": 0,
+      "seconds": 0.0022087390007072827,
+      "stdout": "PASS native Arrow, DLPack, stride and ONNX round trips, malformed input rejection\nnative_exchange_checks=63\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "science_contracts",
+      "exit_code": 0,
+      "seconds": 0.07475486700059264,
+      "stdout": "PASS science native checks=21778 with 1600 exhaustive capsule bit flips, polynomial/dynamics, effects, Holm, active-grid, ONNX\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "dynamics_contracts",
+      "exit_code": 0,
+      "seconds": 0.04882123199968191,
+      "stdout": "Measured forward=3.68412498851e-05 backward_observed=3.68759943353e-05 cycle=1.07022895922e-16 peak=2.22044604925e-16\nPASS midpoint inverse and strict future-block checks=8700\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "parser_mutations",
+      "exit_code": 0,
+      "seconds": 0.332658930999969,
+      "stdout": "PASS 100000 bounded parser mutations: 1034 accepted, 98966 rejected\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "lab_engine_contracts",
+      "exit_code": 0,
+      "seconds": 0.32257913399917015,
+      "stdout": "PASS 177 lab/random/units/causal/learning/checkpoint assertions\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "release_regressions",
+      "exit_code": 0,
+      "seconds": 0.01043974700041872,
+      "stdout": "PASS mixed-component midpoint/reverse regressions\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "safety_basis_alias",
+      "exit_code": 0,
+      "seconds": 0.006128615999841713,
+      "stdout": "PASS basis_alias\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "safety_basis_atomic",
+      "exit_code": 0,
+      "seconds": 0.001963707998584141,
+      "stdout": "PASS basis_atomic\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "safety_holm_overlap",
+      "exit_code": 0,
+      "seconds": 0.0027344219997758046,
+      "stdout": "PASS holm_overlap\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "safety_matrix_span",
+      "exit_code": 0,
+      "seconds": 0.002765477998764254,
+      "stdout": "PASS matrix_span\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "safety_dlpack_flags",
+      "exit_code": 0,
+      "seconds": 0.0017982000008487375,
+      "stdout": "PASS dlpack_flags\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "safety_arrow_dictionary",
+      "exit_code": 0,
+      "seconds": 0.007920862000901252,
+      "stdout": "PASS arrow_dictionary\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "safety_csv_nul",
+      "exit_code": 0,
+      "seconds": 0.005422055999588338,
+      "stdout": "PASS csv_nul\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "safety_midpoint_branch",
+      "exit_code": 0,
+      "seconds": 0.002699931999813998,
+      "stdout": "PASS midpoint_branch\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "actual_science_consumer",
+      "exit_code": 0,
+      "seconds": 0.0065522690001671435,
+      "stdout": "PASS science external C consumer: terms=3 prediction=1.2850000000000001\n",
+      "stderr": ""
+    },
+    {
+      "profile": "debug",
+      "test": "actual_sdk_consumer",
+      "exit_code": 0,
+      "seconds": 0.003378220000740839,
+      "stdout": "SDK consumer: prediction=7, Arrow/DLPack round trips=PASS\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "native_contracts",
+      "exit_code": 0,
+      "seconds": 0.00484065099954023,
+      "stdout": "PASS: 68 concrete native assertions; QR, caps, tamper, adapter, CSV, CPUID, RIP, hardware instruction branches\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "platform_probe",
+      "exit_code": 0,
+      "seconds": 0.005674527999872225,
+      "stdout": "abi=65539 arch_x86_64=1 rdrand=1 rdseed=1 rdtscp=1 osxsave=1 avx=1 invariant_tsc=1 max_leaf=28 extended_leaf=2147483681\nrip_native_instruction_address=0x7f0b8231513c (PIE/ASLR-dependent, not entropy)\nrdtscp_ticks=30790919683785 aux=2 (telemetry, not entropy)\nrflags=0x0000000000000202 (status, not entropy)\nxcr0=0x0000000000000007 (OS-enabled extended state)\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "exchange_contracts",
+      "exit_code": 0,
+      "seconds": 0.004778634000103921,
+      "stdout": "PASS native Arrow, DLPack, stride and ONNX round trips, malformed input rejection\nnative_exchange_checks=63\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "science_contracts",
+      "exit_code": 0,
+      "seconds": 0.04862141400008113,
+      "stdout": "PASS science native checks=21778 with 1600 exhaustive capsule bit flips, polynomial/dynamics, effects, Holm, active-grid, ONNX\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "dynamics_contracts",
+      "exit_code": 0,
+      "seconds": 0.04546344399932423,
+      "stdout": "Measured forward=3.68412498851e-05 backward_observed=3.68759943353e-05 cycle=1.07022895922e-16 peak=2.22044604925e-16\nPASS midpoint inverse and strict future-block checks=8700\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "parser_mutations",
+      "exit_code": 0,
+      "seconds": 0.2543389849997766,
+      "stdout": "PASS 100000 bounded parser mutations: 1034 accepted, 98966 rejected\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "lab_engine_contracts",
+      "exit_code": 0,
+      "seconds": 0.0893151759992179,
+      "stdout": "PASS 177 lab/random/units/causal/learning/checkpoint assertions\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "release_regressions",
+      "exit_code": 0,
+      "seconds": 0.003032931999769062,
+      "stdout": "PASS mixed-component midpoint/reverse regressions\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "safety_basis_alias",
+      "exit_code": 0,
+      "seconds": 0.002939955000329064,
+      "stdout": "PASS basis_alias\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "safety_basis_atomic",
+      "exit_code": 0,
+      "seconds": 0.002339671000299859,
+      "stdout": "PASS basis_atomic\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "safety_holm_overlap",
+      "exit_code": 0,
+      "seconds": 0.002175169998736237,
+      "stdout": "PASS holm_overlap\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "safety_matrix_span",
+      "exit_code": 0,
+      "seconds": 0.0022978300003160257,
+      "stdout": "PASS matrix_span\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "safety_dlpack_flags",
+      "exit_code": 0,
+      "seconds": 0.0033715990011842223,
+      "stdout": "PASS dlpack_flags\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "safety_arrow_dictionary",
+      "exit_code": 0,
+      "seconds": 0.0014336989988805726,
+      "stdout": "PASS arrow_dictionary\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "safety_csv_nul",
+      "exit_code": 0,
+      "seconds": 0.002492126001016004,
+      "stdout": "PASS csv_nul\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "safety_midpoint_branch",
+      "exit_code": 0,
+      "seconds": 0.0034387079995212844,
+      "stdout": "PASS midpoint_branch\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "actual_science_consumer",
+      "exit_code": 0,
+      "seconds": 0.0016000039995560655,
+      "stdout": "PASS science external C consumer: terms=3 prediction=1.2850000000000001\n",
+      "stderr": ""
+    },
+    {
+      "profile": "optimized",
+      "test": "actual_sdk_consumer",
+      "exit_code": 0,
+      "seconds": 0.01974072399934812,
+      "stdout": "SDK consumer: prediction=7, Arrow/DLPack round trips=PASS\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "native_contracts",
+      "exit_code": 0,
+      "seconds": 0.017819081998823094,
+      "stdout": "PASS: 68 concrete native assertions; QR, caps, tamper, adapter, CSV, CPUID, RIP, hardware instruction branches\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "platform_probe",
+      "exit_code": 0,
+      "seconds": 0.014194396000675624,
+      "stdout": "abi=65539 arch_x86_64=1 rdrand=1 rdseed=1 rdtscp=1 osxsave=1 avx=1 invariant_tsc=1 max_leaf=28 extended_leaf=2147483681\nrip_native_instruction_address=0x7f27a705aaf3 (PIE/ASLR-dependent, not entropy)\nrdtscp_ticks=30792282754103 aux=2 (telemetry, not entropy)\nrflags=0x0000000000000202 (status, not entropy)\nxcr0=0x0000000000000007 (OS-enabled extended state)\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "exchange_contracts",
+      "exit_code": 0,
+      "seconds": 0.028703633999612066,
+      "stdout": "PASS native Arrow, DLPack, stride and ONNX round trips, malformed input rejection\nnative_exchange_checks=63\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "science_contracts",
+      "exit_code": 0,
+      "seconds": 0.3553386090006825,
+      "stdout": "PASS science native checks=21778 with 1600 exhaustive capsule bit flips, polynomial/dynamics, effects, Holm, active-grid, ONNX\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "dynamics_contracts",
+      "exit_code": 0,
+      "seconds": 0.20973301800040645,
+      "stdout": "Measured forward=3.68412498851e-05 backward_observed=3.68759943353e-05 cycle=1.07022895922e-16 peak=2.22044604925e-16\nPASS midpoint inverse and strict future-block checks=8700\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "parser_mutations",
+      "exit_code": 0,
+      "seconds": 1.0976418430000194,
+      "stdout": "PASS 100000 bounded parser mutations: 1034 accepted, 98966 rejected\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "lab_engine_contracts",
+      "exit_code": 0,
+      "seconds": 0.6502571069995611,
+      "stdout": "PASS 177 lab/random/units/causal/learning/checkpoint assertions\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "release_regressions",
+      "exit_code": 0,
+      "seconds": 0.009398825999596738,
+      "stdout": "PASS mixed-component midpoint/reverse regressions\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "safety_basis_alias",
+      "exit_code": 0,
+      "seconds": 0.007006425999861676,
+      "stdout": "PASS basis_alias\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "safety_basis_atomic",
+      "exit_code": 0,
+      "seconds": 0.0050963970006705495,
+      "stdout": "PASS basis_atomic\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "safety_holm_overlap",
+      "exit_code": 0,
+      "seconds": 0.008921277998524602,
+      "stdout": "PASS holm_overlap\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "safety_matrix_span",
+      "exit_code": 0,
+      "seconds": 0.004816835000383435,
+      "stdout": "PASS matrix_span\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "safety_dlpack_flags",
+      "exit_code": 0,
+      "seconds": 0.007163487000070745,
+      "stdout": "PASS dlpack_flags\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "safety_arrow_dictionary",
+      "exit_code": 0,
+      "seconds": 0.010388601998783997,
+      "stdout": "PASS arrow_dictionary\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "safety_csv_nul",
+      "exit_code": 0,
+      "seconds": 0.005530034999537747,
+      "stdout": "PASS csv_nul\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "safety_midpoint_branch",
+      "exit_code": 0,
+      "seconds": 0.006188258999827667,
+      "stdout": "PASS midpoint_branch\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "actual_science_consumer",
+      "exit_code": 0,
+      "seconds": 0.00683764799941855,
+      "stdout": "PASS science external C consumer: terms=3 prediction=1.2850000000000001\n",
+      "stderr": ""
+    },
+    {
+      "profile": "sanitized",
+      "test": "actual_sdk_consumer",
+      "exit_code": 0,
+      "seconds": 0.007586990999698173,
+      "stdout": "SDK consumer: prediction=7, Arrow/DLPack round trips=PASS\n",
+      "stderr": ""
+    }
+  ]
+}

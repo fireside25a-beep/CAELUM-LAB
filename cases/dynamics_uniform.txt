@@ -1,0 +1,12 @@
+trajectory_results=central_difference_with_strict_future_block; not causal identification
+derivative_target=0
+model inputs=2 degree=1 terms=2 train_rows=608 holdout_rows=328 train_rmse=1.9130660324474607e-15 holdout_rmse=1.9037038030198907e-15 bic=-41197.503781996063
+candidate_evaluations=3 rank_rejections=0 selection_steps=2
+term.0 powers=0,0,0 coefficient=4.1182064269146279e-16
+term.1 powers=0,1,0 coefficient=0.99998333341666679
+derivative_target=1
+model inputs=2 degree=1 terms=2 train_rows=626 holdout_rows=328 train_rmse=2.6712828009429994e-15 holdout_rmse=2.768167488483935e-15 bic=-41999.50571954171
+candidate_evaluations=3 rank_rejections=0 selection_steps=2
+term.0 powers=0,0,0 coefficient=4.2104991368474565e-16
+term.1 powers=1,0,0 coefficient=-0.99998333341666912
+future_block_anchor=769 forecast_steps=330 forward_rmse=3.3756176971623282e-05 reverse_observed_rmse=3.3756176971278554e-05 solver_cycle_rmse=5.1961096440070363e-17 solver_cycle_max_abs=1.1102230246251565e-16

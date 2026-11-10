@@ -1,0 +1,191 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Holdout outcome mutation cannot alter any selection/update event",
+    "First action is independent of candidate outcomes",
+    "Refused latent_confounding",
+    "Refused no_authority",
+    "Refused uncontrolled",
+    "Refused negative_seed",
+    "Refused unknown_field",
+    "Posterior underflow cannot erase an unfalsified model from support bounds",
+    "CLI rejects signed hexadecimal seeds",
+    "All deterministic hypotheses falsified: explicit COUNTEREXAMPLE, exact replay",
+    "Tampered frozen protocol refused",
+    "Three-input polynomial loop skips unsupported cubic dictionary and runs supported models",
+    "Insufficient polynomial fit is an error, not a scientific counterexample",
+    "Duplicate decoded keys refused"
+  ],
+  "subprocesses": [
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/base"
+      ],
+      "code": 0,
+      "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.40620192023179796\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/holdout_changed"
+      ],
+      "code": 0,
+      "stdout": "phase=4 steps=10 cost=10 holdout_rmse=0.76485292703810681\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/outcomes_changed",
+        "1"
+      ],
+      "code": 0,
+      "stdout": "phase=3 steps=1 cost=1 holdout_rmse=0.76485292703891639\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/latent_confounding"
+      ],
+      "code": 1,
+      "stdout": "",
+      "stderr": "lab-run: unsupported\n"
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/no_authority"
+      ],
+      "code": 1,
+      "stdout": "",
+      "stderr": "lab-run: unsupported\n"
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/uncontrolled"
+      ],
+      "code": 1,
+      "stdout": "",
+      "stderr": "lab-run: unsupported\n"
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/negative_seed"
+      ],
+      "code": 1,
+      "stdout": "",
+      "stderr": "lab-run: invalid_argument\n"
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/unknown_field"
+      ],
+      "code": 1,
+      "stdout": "",
+      "stderr": "lab-run: unsupported\n"
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/underflow"
+      ],
+      "code": 0,
+      "stdout": "phase=4 steps=0 cost=0 holdout_rmse=0.64031242374328512\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "lab-discover",
+        "/tmp/caelum-engine-edges-5groyh0z/observations.csv",
+        "1",
+        "-1",
+        "/tmp/caelum-engine-edges-5groyh0z/negative.cpr"
+      ],
+      "code": 1,
+      "stdout": "",
+      "stderr": "FAIL invalid hex seed: invalid_argument\n"
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/falsified"
+      ],
+      "code": 0,
+      "stdout": "phase=5 steps=1 cost=1 holdout_rmse=0\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "lab-run-replay",
+        "/tmp/caelum-engine-edges-5groyh0z/falsified"
+      ],
+      "code": 0,
+      "stdout": "lab-run-replay: ok\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "lab-run-replay",
+        "/tmp/caelum-engine-edges-5groyh0z/falsified"
+      ],
+      "code": 1,
+      "stdout": "lab-run-replay: corrupt_data\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/three_inputs"
+      ],
+      "code": 0,
+      "stdout": "phase=4 steps=1 cost=1 holdout_rmse=0.0071072452254865208\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "lab-run-replay",
+        "/tmp/caelum-engine-edges-5groyh0z/three_inputs"
+      ],
+      "code": 0,
+      "stdout": "lab-run-replay: ok\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/insufficient_fit"
+      ],
+      "code": 1,
+      "stdout": "",
+      "stderr": "lab-run: rank_deficient\n"
+    },
+    {
+      "args": [
+        "lab-run",
+        "/tmp/caelum-engine-edges-5groyh0z/protocol.json",
+        "/tmp/caelum-engine-edges-5groyh0z/duplicate"
+      ],
+      "code": 1,
+      "stdout": "",
+      "stderr": "lab-run: corrupt_data\n"
+    }
+  ]
+}

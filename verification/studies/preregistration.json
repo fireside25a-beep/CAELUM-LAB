@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "status": "preregistered_before_execution",
+  "scope": "Known-truth mathematical fixtures only. No physical measurement claim.",
+  "numerics": {
+    "linear_reference": "NumPy SVD/lstsq on conditioned coordinates",
+    "ridge_reference": "scikit-learn Ridge alpha=lambda solver=svd",
+    "huber_reference": "SciPy least_squares loss=huber, f_scale=delta",
+    "coefficient_relative_tolerance": 1e-07,
+    "no_external_library_in_production": true
+  },
+  "active_study": {
+    "seeds": 30,
+    "seed_start": 1000,
+    "policies": [
+      "random",
+      "round_robin",
+      "eig",
+      "cost_eig"
+    ],
+    "budget_actions": 10,
+    "budget_cost": 10,
+    "candidate_rows": 100,
+    "initial_observations": 40,
+    "truth": "two-variable Bernoulli SCM: P(X=1)=0.5; P(Y=1|do(X=0))=0.1, P(Y=1|do(X=1))=0.9",
+    "alternative": "same X=0 mechanism; P(Y=1|do(X=1))=0.2",
+    "primary_endpoint": "absolute finite-model posterior-mean effect error at equal budget",
+    "secondary_endpoints": [
+      "remaining model entropy",
+      "holdout Brier score",
+      "cost and count equality",
+      "chosen action sequence"
+    ],
+    "success_rule": "Report measured paired outcomes and exact counts, including negative or tied comparisons; no universal superiority claim.",
+    "cost_control": "All actions cost 1; cost_eig must match eig exactly in this control."
+  },
+  "replay": {
+    "stopped_then_resumed": "action/outcome/weight event bytes must equal uninterrupted run",
+    "tampered_snapshot": "must reject",
+    "historical_v1": "must continue replaying preserved 0.3.1 receipts"
+  },
+  "faults": {
+    "pair_commit": "kill before/after each intercepted rename; after recovery both outputs must be old or new, never mixed",
+    "snapshot": "concurrent atomic source replacement must bind returned parsed values to exact returned hash",
+    "aliases": "dangling symlink to other output must reject without source changes"
+  },
+  "conformal": {
+    "method": "split conformal absolute-residual order statistic ceil((n+1)*(1-alpha))",
+    "calibration": "independent from fitting and selection; guaranteed scope requires exchangeability",
+    "insufficient_rank": "explicit unavailable rather than finite fabricated interval"
+  }
+}

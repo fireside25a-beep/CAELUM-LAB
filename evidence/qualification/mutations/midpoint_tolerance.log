@@ -1,0 +1,84 @@
+-- The C compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /tmp/caelum-mutation-64a3zkq8/build
+
+[  2%] Building C object CMakeFiles/caelum-parser-fuzz.dir/src/json.c.o
+[  4%] Building C object CMakeFiles/caelum_port.dir/src/sha256.c.o
+[  6%] Building C object CMakeFiles/caelum-parser-fuzz.dir/verification/parser_fuzz.c.o
+[  8%] Building C object CMakeFiles/caelum_port.dir/src/core.c.o
+[ 10%] Building C object CMakeFiles/caelum_port.dir/src/cpu.c.o
+[ 12%] Building C object CMakeFiles/caelum-parser-fuzz.dir/src/locale_numeric.c.o
+[ 14%] Building C object CMakeFiles/caelum_port.dir/src/adapter_loader.c.o
+[ 16%] Building C object CMakeFiles/caelum_port.dir/src/exchange.c.o
+[ 18%] Building C object CMakeFiles/caelum_port.dir/src/onnx.c.o
+[ 20%] Linking C executable caelum-parser-fuzz
+[ 22%] Building C object CMakeFiles/caelum_port.dir/src/science.c.o
+[ 22%] Built target caelum-parser-fuzz
+[ 25%] Building C object CMakeFiles/caelum_port.dir/src/lab.c.o
+[ 27%] Building C object CMakeFiles/caelum_port.dir/src/dynamics.c.o
+[ 29%] Building C object CMakeFiles/caelum_port.dir/src/io.c.o
+[ 31%] Building C object CMakeFiles/caelum_port.dir/src/locale_numeric.c.o
+[ 33%] Building C object CMakeFiles/caelum_port.dir/src/numeric.c.o
+[ 35%] Building C object CMakeFiles/caelum_port.dir/src/random_v2.c.o
+[ 37%] Building C object CMakeFiles/caelum_port.dir/src/identity.c.o
+[ 39%] Building C object CMakeFiles/caelum_port.dir/src/expression.c.o
+[ 41%] Building C object CMakeFiles/caelum_port.dir/src/causal.c.o
+[ 43%] Building C object CMakeFiles/caelum_port.dir/src/json.c.o
+[ 45%] Building C object CMakeFiles/caelum_port.dir/src/protocol.c.o
+[ 47%] Building C object CMakeFiles/caelum_port.dir/src/engine.c.o
+[ 50%] Building C object CMakeFiles/caelum_port.dir/src/uncertainty.c.o
+[ 52%] Linking C shared library libcaelum_port.so
+[ 52%] Built target caelum_port
+[ 54%] Building C object CMakeFiles/cp_linear_exchange.dir/adapters/linear_exchange.c.o
+[ 56%] Building C object CMakeFiles/caelum-exchange-tests.dir/tests/exchange_tests.c.o
+[ 58%] Building C object CMakeFiles/caelum-port.dir/src/cli.c.o
+[ 60%] Building C object CMakeFiles/caelum-port-tests.dir/tests/native_tests.c.o
+[ 62%] Linking C executable caelum-exchange-tests
+[ 64%] Building C object CMakeFiles/cp_linear_exchange.dir/src/locale_numeric.c.o
+[ 66%] Linking C executable caelum-port-tests
+[ 66%] Built target caelum-exchange-tests
+[ 68%] Linking C shared module cp_linear_exchange.so
+[ 70%] Building C object CMakeFiles/caelum-science-tests.dir/tests/science_tests.c.o
+[ 70%] Built target caelum-port-tests
+[ 72%] Linking C executable caelum-port
+[ 72%] Built target cp_linear_exchange
+[ 75%] Building C object CMakeFiles/caelum-dynamics-tests.dir/tests/dynamics_tests.c.o
+[ 77%] Building C object CMakeFiles/caelum-lab-tests.dir/tests/lab_tests.c.o
+[ 77%] Built target caelum-port
+[ 79%] Building C object CMakeFiles/caelum-release-regressions.dir/tests/release_regressions.c.o
+[ 81%] Linking C executable caelum-science-tests
+[ 81%] Built target caelum-science-tests
+[ 83%] Linking C executable caelum-lab-tests
+[ 85%] Building C object CMakeFiles/caelum-safety-tests.dir/tests/safety_tests.c.o
+[ 87%] Linking C executable caelum-release-regressions
+[ 89%] Linking C executable caelum-dynamics-tests
+[ 89%] Built target caelum-dynamics-tests
+[ 89%] Built target caelum-lab-tests
+[ 89%] Built target caelum-release-regressions
+[ 91%] Linking C executable caelum-safety-tests
+[ 93%] Building C object CMakeFiles/caelum-science-consumer.dir/examples/science_consumer.c.o
+[ 95%] Building C object CMakeFiles/caelum-consumer-example.dir/examples/consumer.c.o
+[ 97%] Linking C executable caelum-consumer-example
+[100%] Linking C executable caelum-science-consumer
+[100%] Built target caelum-safety-tests
+[100%] Built target caelum-science-consumer
+[100%] Built target caelum-consumer-example
+Test project /tmp/caelum-mutation-64a3zkq8/build
+    Start 8: release_regressions
+1/1 Test #8: release_regressions ..............***Failed    0.00 sec
+FAIL line 12: cp_dynamics_step_midpoint(f,2,x,1,next)==CP_OK
+
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.00 sec
+
+The following tests FAILED:
+	  8 - release_regressions (Failed)
+Errors while running CTest

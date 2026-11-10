@@ -1,0 +1,12 @@
+; CAELUM exact-arithmetic obligation: harmonic_energy
+(set-option :timeout 30000)
+(set-logic QF_NRA)
+(declare-const x Real)
+(declare-const y Real)
+(declare-const z Real)
+(declare-const w Real)
+(declare-const h Real)
+(assert (= (- z x) (* h (/ (+ y w) 2))))
+(assert (= (- w y) (* (- h) (/ (+ x z) 2))))
+(assert (not (= (+ (* x x) (* y y)) (+ (* z z) (* w w)))))
+(check-sat)

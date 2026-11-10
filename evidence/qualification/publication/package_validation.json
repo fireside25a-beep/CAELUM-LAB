@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "deterministic_archives_identical": true,
+  "local_git_staging_and_archive": "PASS; no remote created or contacted",
+  "application_only_payload_files": 21,
+  "fresh_research_native_targets": 54,
+  "scientific_code_and_binaries": "UNCHANGED",
+  "github_workflow_execution": "NOT_RUN",
+  "checks": [
+    {
+      "name": "metadata_and_citation",
+      "code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks\": 153,\n  \"citation_schema\": \"1.2.0\",\n  \"license\": \"Apache-2.0\",\n  \"version\": \"0.4.0\",\n  \"scientific_source_identity\": \"f9cf195683d46528dadf3b2072304a4ebfc5a90d0bdfb21fb38b9507a88f46ff\",\n  \"scientific_code_and_binaries\": \"UNCHANGED\",\n  \"github_execution\": \"NOT_RUN_HERE\",\n  \"details\": [\n    \"CITATION.cff validates against upstream 1.2.0 schema\",\n    \"Citation version/license match the current application\",\n    \"Citation identifies the actual author without invented affiliation/DOI\",\n    \"Unmodified official Apache-2.0 license text\",\n    \"First-party copyright and scope notice present\",\n    \"Qualified bytes unchanged: src/adapter_loader.c\",\n    \"Qualified bytes unchanged: src/bounds.h\",\n    \"Qualified bytes unchanged: src/causal.c\",\n    \"Qualified bytes unchanged: src/cli.c\",\n    \"Qualified bytes unchanged: src/core.c\",\n    \"Qualified bytes unchanged: src/cpu.c\",\n    \"Qualified bytes unchanged: src/dynamics.c\",\n    \"Qualified bytes unchanged: src/engine.c\",\n    \"Qualified bytes unchanged: src/engine_internal.h\",\n    \"Qualified bytes unchanged: src/exchange.c\",\n    \"Qualified bytes unchanged: src/expression.c\",\n    \"Qualified bytes unchanged: src/file_identity.h\",\n    \"Qualified bytes unchanged: src/identity.c\",\n    \"Qualified bytes unchanged: src/identity.h.in\",\n    \"Qualified bytes unchanged: src/io.c\",\n    \"Qualified bytes unchanged: src/io.h\",\n    \"Qualified bytes unchanged: src/json.c\",\n    \"Qualified bytes unchanged: src/json.h\",\n    \"Qualified bytes unchanged: src/lab.c\",\n    \"Qualified bytes unchanged: src/locale_numeric.c\",\n    \"Qualified bytes unchanged: src/locale_numeric.h\",\n    \"Qualified bytes unchanged: src/numeric.c\",\n    \"Qualified bytes unchanged: src/numeric_internal.h\",\n    \"Qualified bytes unchanged: src/onnx.c\",\n    \"Qualified bytes unchanged: src/protocol.c\",\n    \"Qualified bytes unchanged: src/random_v2.c\",\n    \"Qualified bytes unchanged: src/science.c\",\n    \"Qualified bytes unchanged: src/sha256.c\",\n    \"Qualified bytes unchanged: src/uncertainty.c\",\n    \"Qualified bytes unchanged: src/workbench_x11.c\",\n    \"Qualified bytes unchanged: include/caelum_exchange.h\",\n    \"Qualified bytes unchanged: include/caelum_lab.h\",\n    \"Qualified bytes unchanged: include/caelum_port.h\",\n    \"Qualified bytes unchanged: include/caelum_science.h\",\n    \"Qualified bytes unchanged: adapters/linear_exchange.c\",\n    \"Qualified bytes unchanged: native/bin/caelum-port\",\n    \"Qualified bytes unchanged: native/bin/caelum-workbench\",\n    \"Qualified bytes unchanged: native/include/caelum/caelum_exchange.h\",\n    \"Qualified bytes unchanged: native/include/caelum/caelum_lab.h\",\n    \"Qualified bytes unchanged: native/include/caelum/caelum_port.h\",\n    \"Qualified bytes unchanged: native/include/caelum/caelum_science.h\",\n    \"Qualified bytes unchanged: native/lib/cp_linear_exchange.so\",\n    \"Qualified bytes unchanged: native/lib/libcaelum_port.so.0.4.0\",\n    \"Qualified bytes unchanged: native/lib/pkgconfig/caelum-port.pc\",\n    \"Qualified bytes unchanged: verification/native/debug/TESTS.json\",\n    \"Qualified bytes unchanged: verification/native/debug/caelum-consumer-example\",\n    \"Qualified bytes unchanged: verification/native/debug/caelum-dynamics-tests\",\n    \"Qualified bytes unchanged: verification/native/debug/caelum-exchange-tests\",\n    \"Qualified bytes unchanged: verification/native/debug/caelum-lab-tests\",\n    \"Qualified bytes unchanged: verification/native/debug/caelum-parser-fuzz\",\n    \"Qualified bytes unchanged: verification/native/debug/caelum-port\",\n    \"Qualified bytes unchanged: verification/native/debug/caelum-port-tests\",\n    \"Qualified bytes unchanged: verification/native/debug/caelum-release-regressions\",\n    \"Qualified bytes unchanged: verification/native/debug/caelum-safety-tests\",\n    \"Qualified bytes unchanged: verification/native/debug/caelum-science-consumer\",\n    \"Qualified bytes unchanged: verification/native/debug/caelum-science-tests\",\n    \"Qualified bytes unchanged: verification/native/debug/cp_linear_exchange.so\",\n    \"Qualified bytes unchanged: verification/native/debug/libcaelum_port.so.0.4.0\",\n    \"Qualified bytes unchanged: verification/native/optimized/TESTS.json\",\n    \"Qualified bytes unchanged: verification/native/optimized/caelum-consumer-example\",\n    \"Qualified bytes unchanged: verification/native/optimized/caelum-dynamics-tests\",\n    \"Qualified bytes unchanged: verification/native/optimized/caelum-exchange-tests\",\n    \"Qualified bytes unchanged: verification/native/optimized/caelum-lab-tests\",\n    \"Qualified bytes unchanged: verification/native/optimized/caelum-parser-fuzz\",\n    \"Qualified bytes unchanged: verification/native/optimized/caelum-port\",\n    \"Qualified bytes unchanged: verification/native/optimized/caelum-port-tests\",\n    \"Qualified bytes unchanged: verification/native/optimized/caelum-release-regressions\",\n    \"Qualified bytes unchanged: verification/native/optimized/caelum-safety-tests\",\n    \"Qualified bytes unchanged: verification/native/optimized/caelum-science-consumer\",\n    \"Qualified bytes unchanged: verification/native/optimized/caelum-science-tests\",\n    \"Qualified bytes unchanged: verification/native/optimized/cp_linear_exchange.so\",\n    \"Qualified bytes unchanged: verification/native/optimized/libcaelum_port.so.0.4.0\",\n    \"Qualified bytes unchanged: verification/native/sanitized/TESTS.json\",\n    \"Qualified bytes unchanged: verification/native/sanitized/caelum-consumer-example\",\n    \"Qualified bytes unchanged: verification/native/sanitized/caelum-dynamics-tests\",\n    \"Qualified bytes unchanged: verification/native/sanitized/caelum-exchange-tests\",\n    \"Qualified bytes unchanged: verification/native/sanitized/caelum-lab-tests\",\n    \"Qualified bytes unchanged: verification/native/sanitized/caelum-parser-fuzz\",\n    \"Qualified bytes unchanged: verification/native/sanitized/caelum-port\",\n    \"Qualified bytes unchanged: verification/native/sanitized/caelum-port-tests\",\n    \"Qualified bytes unchanged: verification/native/sanitized/caelum-release-regressions\",\n    \"Qualified bytes unchanged: verification/native/sanitized/caelum-safety-tests\",\n    \"Qualified bytes unchanged: verification/native/sanitized/caelum-science-consumer\",\n    \"Qualified bytes unchanged: verification/native/sanitized/caelum-science-tests\",\n    \"Qualified bytes unchanged: verification/native/sanitized/cp_linear_exchange.so\",\n    \"Qualified bytes unchanged: verification/native/sanitized/libcaelum_port.so.0.4.0\",\n    \"Scientific source fingerprint unchanged\",\n    \"README local target: docs/DISTRIBUTION.md\",\n    \"README local target: docs/SCIENCE.md\",\n    \"README local target: docs/AUDIT.md\",\n    \"README local target: docs/API.md\",\n    \"README local target: CITATION.cff\",\n    \"README local target: docs/DISTRIBUTION.md\",\n    \"README local target: evidence/qualification/workbench/workbench_complete.png\",\n    \"README local target: docs/assets/intervention-error.svg\",\n    \"README local target: docs/assets/empirical-fit.svg\",\n    \"README local target: docs/assets/calibration.svg\",\n    \"README local target: docs/AUDIT.md\",\n    \"README local target: TREE.md\",\n    \"README local target: RELEASE_STATUS.json\",\n    \"README local target: LICENSE\",\n    \"README local target: NOTICE.md\",\n    \"README local target: docs/LICENSE_SCOPE.md\",\n    \"README local target: CITATION.cff\",\n    \"README local target: docs/SCIENCE.md\",\n    \"README local target: docs/FORMAL_SCOPE.md\",\n    \"README local target: docs/assets/caelum-banner.svg\",\n    \"SVG parses: caelum-banner\",\n    \"Black SVG background: caelum-banner\",\n    \"No active SVG content: caelum-banner\",\n    \"No SVG event handlers: caelum-banner\",\n    \"No external SVG assets: caelum-banner\",\n    \"SVG parses: intervention-error\",\n    \"Black SVG background: intervention-error\",\n    \"No active SVG content: intervention-error\",\n    \"No SVG event handlers: intervention-error\",\n    \"No external SVG assets: intervention-error\",\n    \"PNG signature: intervention-error\",\n    \"Black rendered PNG corner: intervention-error\",\n    \"SVG parses: empirical-fit\",\n    \"Black SVG background: empirical-fit\",\n    \"No active SVG content: empirical-fit\",\n    \"No SVG event handlers: empirical-fit\",\n    \"No external SVG assets: empirical-fit\",\n    \"PNG signature: empirical-fit\",\n    \"Black rendered PNG corner: empirical-fit\",\n    \"SVG parses: calibration\",\n    \"Black SVG background: calibration\",\n    \"No active SVG content: calibration\",\n    \"No SVG event handlers: calibration\",\n    \"No external SVG assets: calibration\",\n    \"PNG signature: calibration\",\n    \"Black rendered PNG corner: calibration\",\n    \"Workflow default token is read-only: caelum-laboratory.yml\",\n    \"Action pinned to a full commit: actions/checkout\",\n    \"Action pinned to a full commit: actions/setup-python\",\n    \"Action pinned to a full commit: actions/checkout\",\n    \"Action pinned to a full commit: actions/checkout\",\n    \"Action pinned to a full commit: actions/checkout\",\n    \"Action pinned to a full commit: actions/setup-python\",\n    \"Workflow default token is read-only: release.yml\",\n    \"Action pinned to a full commit: actions/checkout\",\n    \"Action pinned to a full commit: actions/setup-python\",\n    \"Action pinned to a full commit: actions/upload-artifact\",\n    \"Release publishing is owner-triggered only\",\n    \"Release preparation creates only a draft\",\n    \"Release preparation requires an existing tag\",\n    \"No file exceeds GitHub 100 MiB regular-file limit\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "actionlint",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "second_packaging",
+      "code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"version\": \"0.4.0\",\n  \"deterministic_zip_time\": \"1980-01-01T00:00:00\",\n  \"science_source_identity\": \"f9cf195683d46528dadf3b2072304a4ebfc5a90d0bdfb21fb38b9507a88f46ff\",\n  \"native_binaries\": \"Copied unchanged; no rebuild or scientific requalification is implied\",\n  \"assets\": [\n    {\n      \"filename\": \"CAELUM-0.4.0-linux-x86_64-app.zip\",\n      \"bytes\": 150227,\n      \"sha256\": \"627565e43259753b5a514aca3a0d08ac8b26fdb4ecbba5704ee1d637798f3e81\",\n      \"files_and_links\": 21\n    },\n    {\n      \"filename\": \"CAELUM-0.4.0-research-volume.zip\",\n      \"bytes\": 30835129,\n      \"sha256\": \"6de7d3d9ec01454be6b5c2b0482fe65b58ef012eba5c579752c1f363fbe4bb34\",\n      \"files_and_links\": 373\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "wrong_tag_refused",
+      "code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/verification/publication/package_release.py\", line 41, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/scratch/2b0b64213ca4/work/CAELUM_0_4/verification/publication/package_release.py\", line 20, in main\n    if a.expected_tag and a.expected_tag!='v'+version:raise ValueError('Tag must match compiled application version v'+version)\n                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Tag must match compiled application version v0.4.0\n"
+    },
+    {
+      "name": "unzip_CAELUM-0.4.0-linux-x86_64-app.zip",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "unzip_CAELUM-0.4.0-research-volume.zip",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "app_integrity",
+      "code": 0,
+      "stdout": "{\"status\": \"PASS\", \"application_files_and_links\": 20}\n",
+      "stderr": ""
+    },
+    {
+      "name": "application_native_probe",
+      "code": 0,
+      "stdout": "abi=65539 arch_x86_64=1 rdrand=1 rdseed=1 rdtscp=1 osxsave=1 avx=1 invariant_tsc=1 max_leaf=28 extended_leaf=2147483681\nrip_native_instruction_address=0x7fa2a398813c (PIE/ASLR-dependent, not entropy)\nrdtscp_ticks=36801191566321 aux=5 (telemetry, not entropy)\nrflags=0x0000000000000206 (status, not entropy)\nxcr0=0x0000000000000007 (OS-enabled extended state)\n",
+      "stderr": ""
+    },
+    {
+      "name": "app_window_lifecycle",
+      "code": 0,
+      "stdout": "PASS actual X11 Run, Stop, Resume, Replay and clean window close; native screenshots saved\n",
+      "stderr": ""
+    },
+    {
+      "name": "research_integrity",
+      "code": 0,
+      "stdout": "{\"status\": \"PASS\", \"files_and_links\": 372, \"manifest\": \"MANIFEST.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "research_packaged_54_targets",
+      "code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"executed_targets\": 54,\n  \"profiles\": 3,\n  \"loader_environment\": \"LD_LIBRARY_PATH and DYLD_LIBRARY_PATH removed\",\n  \"leak_scope\": \"Packaged ASan/UBSan default disables LSan because the validation host uses ptrace; separate full Valgrind evidence covers all 18 native targets.\",\n  \"results\": [\n    {\n      \"profile\": \"debug\",\n      \"test\": \"native_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.009717945000375039,\n      \"stdout\": \"PASS: 68 concrete native assertions; QR, caps, tamper, adapter, CSV, CPUID, RIP, hardware instruction branches\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"platform_probe\",\n      \"exit_code\": 0,\n      \"seconds\": 0.005720246001146734,\n      \"stdout\": \"abi=65539 arch_x86_64=1 rdrand=1 rdseed=1 rdtscp=1 osxsave=1 avx=1 invariant_tsc=1 max_leaf=28 extended_leaf=2147483681\\nrip_native_instruction_address=0x7f52e191a370 (PIE/ASLR-dependent, not entropy)\\nrdtscp_ticks=36810057429015 aux=6 (telemetry, not entropy)\\nrflags=0x0000000000000202 (status, not entropy)\\nxcr0=0x0000000000000007 (OS-enabled extended state)\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"exchange_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.0029298249992280034,\n      \"stdout\": \"PASS native Arrow, DLPack, stride and ONNX round trips, malformed input rejection\\nnative_exchange_checks=63\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"science_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.09131051199983631,\n      \"stdout\": \"PASS science native checks=21778 with 1600 exhaustive capsule bit flips, polynomial/dynamics, effects, Holm, active-grid, ONNX\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"dynamics_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.05552779699974053,\n      \"stdout\": \"Measured forward=3.68412498851e-05 backward_observed=3.68759943353e-05 cycle=1.07022895922e-16 peak=2.22044604925e-16\\nPASS midpoint inverse and strict future-block checks=8700\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"parser_mutations\",\n      \"exit_code\": 0,\n      \"seconds\": 0.5015396590006276,\n      \"stdout\": \"PASS 100000 bounded parser mutations: 1034 accepted, 98966 rejected\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"lab_engine_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.2242373850003787,\n      \"stdout\": \"PASS 177 lab/random/units/causal/learning/checkpoint assertions\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"release_regressions\",\n      \"exit_code\": 0,\n      \"seconds\": 0.00367693199950736,\n      \"stdout\": \"PASS mixed-component midpoint/reverse regressions\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"safety_basis_alias\",\n      \"exit_code\": 0,\n      \"seconds\": 0.003272041998570785,\n      \"stdout\": \"PASS basis_alias\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"safety_basis_atomic\",\n      \"exit_code\": 0,\n      \"seconds\": 0.003101938000327209,\n      \"stdout\": \"PASS basis_atomic\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"safety_holm_overlap\",\n      \"exit_code\": 0,\n      \"seconds\": 0.0036755159999302123,\n      \"stdout\": \"PASS holm_overlap\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"safety_matrix_span\",\n      \"exit_code\": 0,\n      \"seconds\": 0.005851438998433878,\n      \"stdout\": \"PASS matrix_span\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"safety_dlpack_flags\",\n      \"exit_code\": 0,\n      \"seconds\": 0.003964944999097497,\n      \"stdout\": \"PASS dlpack_flags\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"safety_arrow_dictionary\",\n      \"exit_code\": 0,\n      \"seconds\": 0.0031443759999092435,\n      \"stdout\": \"PASS arrow_dictionary\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"safety_csv_nul\",\n      \"exit_code\": 0,\n      \"seconds\": 0.004082001998540363,\n      \"stdout\": \"PASS csv_nul\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"safety_midpoint_branch\",\n      \"exit_code\": 0,\n      \"seconds\": 0.002185286999520031,\n      \"stdout\": \"PASS midpoint_branch\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"actual_science_consumer\",\n      \"exit_code\": 0,\n      \"seconds\": 0.0021745020003436366,\n      \"stdout\": \"PASS science external C consumer: terms=3 prediction=1.2850000000000001\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"debug\",\n      \"test\": \"actual_sdk_consumer\",\n      \"exit_code\": 0,\n      \"seconds\": 0.0023868939988460625,\n      \"stdout\": \"SDK consumer: prediction=7, Arrow/DLPack round trips=PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"native_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.007986403001268627,\n      \"stdout\": \"PASS: 68 concrete native assertions; QR, caps, tamper, adapter, CSV, CPUID, RIP, hardware instruction branches\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"platform_probe\",\n      \"exit_code\": 0,\n      \"seconds\": 0.009562908000589232,\n      \"stdout\": \"abi=65539 arch_x86_64=1 rdrand=1 rdseed=1 rdtscp=1 osxsave=1 avx=1 invariant_tsc=1 max_leaf=28 extended_leaf=2147483681\\nrip_native_instruction_address=0x7fde093d513c (PIE/ASLR-dependent, not entropy)\\nrdtscp_ticks=36812524339514 aux=0 (telemetry, not entropy)\\nrflags=0x0000000000000206 (status, not entropy)\\nxcr0=0x0000000000000007 (OS-enabled extended state)\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"exchange_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.002569746999142808,\n      \"stdout\": \"PASS native Arrow, DLPack, stride and ONNX round trips, malformed input rejection\\nnative_exchange_checks=63\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"science_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.0470463319998089,\n      \"stdout\": \"PASS science native checks=21778 with 1600 exhaustive capsule bit flips, polynomial/dynamics, effects, Holm, active-grid, ONNX\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"dynamics_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.021949964999294025,\n      \"stdout\": \"Measured forward=3.68412498851e-05 backward_observed=3.68759943353e-05 cycle=1.07022895922e-16 peak=2.22044604925e-16\\nPASS midpoint inverse and strict future-block checks=8700\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"parser_mutations\",\n      \"exit_code\": 0,\n      \"seconds\": 0.2794039479995263,\n      \"stdout\": \"PASS 100000 bounded parser mutations: 1034 accepted, 98966 rejected\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"lab_engine_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.12234812800124928,\n      \"stdout\": \"PASS 177 lab/random/units/causal/learning/checkpoint assertions\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"release_regressions\",\n      \"exit_code\": 0,\n      \"seconds\": 0.0027682920008373912,\n      \"stdout\": \"PASS mixed-component midpoint/reverse regressions\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"safety_basis_alias\",\n      \"exit_code\": 0,\n      \"seconds\": 0.011032046999389422,\n      \"stdout\": \"PASS basis_alias\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"safety_basis_atomic\",\n      \"exit_code\": 0,\n      \"seconds\": 0.00433561899990309,\n      \"stdout\": \"PASS basis_atomic\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"safety_holm_overlap\",\n      \"exit_code\": 0,\n      \"seconds\": 0.004384200999993482,\n      \"stdout\": \"PASS holm_overlap\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"safety_matrix_span\",\n      \"exit_code\": 0,\n      \"seconds\": 0.015254429999913555,\n      \"stdout\": \"PASS matrix_span\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"safety_dlpack_flags\",\n      \"exit_code\": 0,\n      \"seconds\": 0.004176050000751275,\n      \"stdout\": \"PASS dlpack_flags\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"safety_arrow_dictionary\",\n      \"exit_code\": 0,\n      \"seconds\": 0.0029771429999527754,\n      \"stdout\": \"PASS arrow_dictionary\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"safety_csv_nul\",\n      \"exit_code\": 0,\n      \"seconds\": 0.003124299999399227,\n      \"stdout\": \"PASS csv_nul\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"safety_midpoint_branch\",\n      \"exit_code\": 0,\n      \"seconds\": 0.00721673199950601,\n      \"stdout\": \"PASS midpoint_branch\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"actual_science_consumer\",\n      \"exit_code\": 0,\n      \"seconds\": 0.0034482760001992574,\n      \"stdout\": \"PASS science external C consumer: terms=3 prediction=1.2850000000000001\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"optimized\",\n      \"test\": \"actual_sdk_consumer\",\n      \"exit_code\": 0,\n      \"seconds\": 0.010177176000070176,\n      \"stdout\": \"SDK consumer: prediction=7, Arrow/DLPack round trips=PASS\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"native_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.022539671999766142,\n      \"stdout\": \"PASS: 68 concrete native assertions; QR, caps, tamper, adapter, CSV, CPUID, RIP, hardware instruction branches\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"platform_probe\",\n      \"exit_code\": 0,\n      \"seconds\": 0.00942037900131254,\n      \"stdout\": \"abi=65539 arch_x86_64=1 rdrand=1 rdseed=1 rdtscp=1 osxsave=1 avx=1 invariant_tsc=1 max_leaf=28 extended_leaf=2147483681\\nrip_native_instruction_address=0x7fcbaf5e2af3 (PIE/ASLR-dependent, not entropy)\\nrdtscp_ticks=36814060662405 aux=5 (telemetry, not entropy)\\nrflags=0x0000000000000202 (status, not entropy)\\nxcr0=0x0000000000000007 (OS-enabled extended state)\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"exchange_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.010559121999904164,\n      \"stdout\": \"PASS native Arrow, DLPack, stride and ONNX round trips, malformed input rejection\\nnative_exchange_checks=63\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"science_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.4960760799986019,\n      \"stdout\": \"PASS science native checks=21778 with 1600 exhaustive capsule bit flips, polynomial/dynamics, effects, Holm, active-grid, ONNX\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"dynamics_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.22560357600013958,\n      \"stdout\": \"Measured forward=3.68412498851e-05 backward_observed=3.68759943353e-05 cycle=1.07022895922e-16 peak=2.22044604925e-16\\nPASS midpoint inverse and strict future-block checks=8700\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"parser_mutations\",\n      \"exit_code\": 0,\n      \"seconds\": 1.2108113689992024,\n      \"stdout\": \"PASS 100000 bounded parser mutations: 1034 accepted, 98966 rejected\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"lab_engine_contracts\",\n      \"exit_code\": 0,\n      \"seconds\": 0.7574449240000831,\n      \"stdout\": \"PASS 177 lab/random/units/causal/learning/checkpoint assertions\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"release_regressions\",\n      \"exit_code\": 0,\n      \"seconds\": 0.033195517000422115,\n      \"stdout\": \"PASS mixed-component midpoint/reverse regressions\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"safety_basis_alias\",\n      \"exit_code\": 0,\n      \"seconds\": 0.019353480000063428,\n      \"stdout\": \"PASS basis_alias\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"safety_basis_atomic\",\n      \"exit_code\": 0,\n      \"seconds\": 0.0146741380012827,\n      \"stdout\": \"PASS basis_atomic\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"safety_holm_overlap\",\n      \"exit_code\": 0,\n      \"seconds\": 0.007723982000243268,\n      \"stdout\": \"PASS holm_overlap\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"safety_matrix_span\",\n      \"exit_code\": 0,\n      \"seconds\": 0.008165163000739994,\n      \"stdout\": \"PASS matrix_span\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"safety_dlpack_flags\",\n      \"exit_code\": 0,\n      \"seconds\": 0.01044012400052452,\n      \"stdout\": \"PASS dlpack_flags\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"safety_arrow_dictionary\",\n      \"exit_code\": 0,\n      \"seconds\": 0.014165261000016471,\n      \"stdout\": \"PASS arrow_dictionary\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"safety_csv_nul\",\n      \"exit_code\": 0,\n      \"seconds\": 0.02963372399972286,\n      \"stdout\": \"PASS csv_nul\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"safety_midpoint_branch\",\n      \"exit_code\": 0,\n      \"seconds\": 0.011862946001201635,\n      \"stdout\": \"PASS midpoint_branch\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"actual_science_consumer\",\n      \"exit_code\": 0,\n      \"seconds\": 0.01232625499869755,\n      \"stdout\": \"PASS science external C consumer: terms=3 prediction=1.2850000000000001\\n\",\n      \"stderr\": \"\"\n    },\n    {\n      \"profile\": \"sanitized\",\n      \"test\": \"actual_sdk_consumer\",\n      \"exit_code\": 0,\n      \"seconds\": 0.013202960999478819,\n      \"stdout\": \"SDK consumer: prediction=7, Arrow/DLPack round trips=PASS\\n\",\n      \"stderr\": \"\"\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "research_case_replay",
+      "code": 0,
+      "stdout": "lab-run-replay: ok\n",
+      "stderr": ""
+    },
+    {
+      "name": "git_init",
+      "code": 0,
+      "stdout": "Initialized empty Git repository in /tmp/caelum-github-checks-8otxsvou/git-repository/.git/\n",
+      "stderr": ""
+    },
+    {
+      "name": "git_add",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "git_tree_integrity",
+      "code": 0,
+      "stdout": "{\"status\": \"PASS\", \"files_and_links\": 372, \"manifest\": \"MANIFEST.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "git_write_tree",
+      "code": 0,
+      "stdout": "4cc6f6d39495426496b1a314a29e598b36d9ecad\n",
+      "stderr": ""
+    },
+    {
+      "name": "git_archive",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "git_archive_integrity",
+      "code": 0,
+      "stdout": "{\"status\": \"PASS\", \"files_and_links\": 372, \"manifest\": \"MANIFEST.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "user_output_allowed",
+      "code": 0,
+      "stdout": "{\"status\": \"PASS\", \"files_and_links\": 372, \"manifest\": \"MANIFEST.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "git_ignores_outputs",
+      "code": 0,
+      "stdout": "/tmp/caelum-github-checks-8otxsvou/git-repository/runs/user-result.txt\n",
+      "stderr": ""
+    },
+    {
+      "name": "science_tamper_refused",
+      "code": 1,
+      "stdout": "",
+      "stderr": "FAIL: Modified src/dynamics.c\n"
+    },
+    {
+      "name": "tag_guard_v0.4.0",
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "tag_guard_main",
+      "code": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "tag_guard_v0x4x0",
+      "code": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "tag_guard_v0.4.0; echo no",
+      "code": 1,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

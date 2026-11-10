@@ -1,0 +1,12 @@
+; CAELUM exact-arithmetic obligation: chronological_stencil
+(set-option :timeout 30000)
+(set-logic QF_LIA)
+(declare-const n Int)
+(declare-const split Int)
+(declare-const t Int)
+(assert (>= n 80))
+(assert (= split (div (* n 7) 10)))
+(assert (<= 1 t))
+(assert (<= t (- split 2)))
+(assert (or (< (- t 1) 0) (>= (+ t 1) split)))
+(check-sat)

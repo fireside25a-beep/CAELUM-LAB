@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "background": "black",
+  "repeat_render_identical": true,
+  "data_sources": [
+    {
+      "path": "evidence/qualification/active_study/active_results.csv",
+      "sha256": "8076a2fe7a0ba61bd5080880415a95c14a75d7d2e056e4af129d4df80d063bae"
+    },
+    {
+      "path": "evidence/qualification/active_study/study_results.json",
+      "sha256": "42bc0668d63e3c49b435925d036fcbde6bcd1afdc3bad7d38e3291b9970e9828"
+    },
+    {
+      "path": "evidence/qualification/empirical/empirical_results.json",
+      "sha256": "765953904624727d57cb60b3ce559428d70d9dc251cf050e2fee426a774a3df7"
+    },
+    {
+      "path": "evidence/qualification/empirical/heldout_predictions.csv",
+      "sha256": "1b2a8f69206669dcedee30ffb9ca90750c97e90ad0a9dfaae4dbac30fe65a8cc"
+    }
+  ],
+  "assets_sha256": {
+    "intervention-error.png": "7e7750d334b89bef8a29d09d8cc72762bbcb8fbd269299bbef5708c0d218b6dc",
+    "calibration.svg": "a5dd2316743d94f43abbe8cb02df7c2c3684d7cdff5fdf9a114ac17eece8112f",
+    "calibration.png": "0a0aee0b7d15d78c4dd6a92cb27b953e8fd1567124b37f5076e7062d79d40f38",
+    "empirical-fit.svg": "6e8e6438177a294262111d94130b4210a9c69365af48fa20aea41f0456ec077a",
+    "caelum-banner.svg": "a65babf0dba8444dbbf982183bcf7ce4fddb2bc933186630e10a378923613743",
+    "intervention-error.svg": "004f522100e9c2d6aa041f99dbcbede77c49a4fa5e00ca9052d277722ecdee22",
+    "empirical-fit.png": "a022e1d6f9e26f7cfd5f04551452615531bcb9189729d1e03a4dfce13020c49b"
+  }
+}

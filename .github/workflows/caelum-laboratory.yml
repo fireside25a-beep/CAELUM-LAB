@@ -1,0 +1,87 @@
+name: CAELUM checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  publication:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install metadata validators
+        run: python -m pip install -r verification/publication/requirements.txt
+      - name: Validate citation, README assets, license and preserved payload
+        run: python verification/publication/check_repository.py
+      - name: Verify immutable repository payload
+        run: python verify_integrity.py
+  native:
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        profile: [Debug, Release]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install native window headers
+        run: sudo apt-get update && sudo apt-get install --yes libx11-dev
+      - name: Configure native laboratory
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=${{ matrix.profile }} -DCP_BUILD_TESTS=ON -DCP_BUILD_WORKBENCH=ON
+      - name: Build
+        run: cmake --build build --parallel 2
+      - name: Run native contracts
+        run: ctest --test-dir build --output-on-failure
+  sanitizers:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Configure Clang ASan and UBSan
+        run: >-
+          cmake -S . -B build-sanitized -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=clang
+          -DCMAKE_C_FLAGS='-fsanitize=address,undefined -fno-omit-frame-pointer -fno-sanitize-recover=all'
+          -DCMAKE_EXE_LINKER_FLAGS='-fsanitize=address,undefined'
+          -DCMAKE_SHARED_LINKER_FLAGS='-fsanitize=address,undefined'
+      - run: cmake --build build-sanitized --parallel 2
+      - name: Run instrumented contracts
+        env:
+          ASAN_OPTIONS: detect_leaks=1
+          UBSAN_OPTIONS: halt_on_error=1
+        run: ctest --test-dir build-sanitized --output-on-failure
+  independent-oracles:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install independent scientific references
+        run: |
+          python -m pip install -r verification/oracle-requirements.txt
+          python -m pip install torch==2.15.0+cpu --index-url https://download.pytorch.org/whl/cpu
+      - name: Execute native and independent scientific verification
+        run: bash tooling/verify_native.sh "$GITHUB_WORKSPACE/build-oracles"
+      - name: Authority and file-failure regressions
+        run: |
+          python verification/engine_edges.py --cli build-oracles/caelum-port --out dist/edge-checks
+          python verification/qualify_commits.py --cli build-oracles/caelum-port --library build-oracles/libcaelum_port.so --out dist/file-checks

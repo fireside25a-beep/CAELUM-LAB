@@ -1,0 +1,18 @@
+{
+ "schema":1,"status":"written_before_measurement_download_and_analysis",
+ "dataset":"Causal Chambers lt_malus_v1, original published white_255 measurements",
+ "source":"https://github.com/juangamella/causal-chamber/tree/main/datasets/lt_malus_v1",
+ "download":"https://causalchamber.s3.eu-central-1.amazonaws.com/downloadables/lt_malus_v1.zip",
+ "upstream_md5":"cc49b95d85410e0b5ea3bcd1479428e3",
+ "license":"CC BY 4.0 dataset; Gamella, Peters and Buhlmann (2025), doi:10.1038/s42256-024-00964-x",
+ "data_policy":"Use existing author measurements only; no remote operation or synthetic replacement.",
+ "target":"I_3, if the published sensor column uses an equivalent documented name retain and report that exact name",
+ "inputs":"theta_1 and theta_2 converted from documented degrees to radians",
+ "split":{"training":"first 600 rows","calibration":"next 200 rows","holdout":"last 200 rows"},
+ "rival_models":["intercept + a*cos(theta_1-theta_2)^2","intercept + a*cos(theta_1)^2*cos(theta_1-theta_2)^2","intercept + a*theta_1 + b*theta_2"],
+ "selection":"training BIC over these three predeclared templates only, never holdout",
+ "production_math":"CAELUM typed expression evaluator and native conditioned QR; independent NumPy least squares comparison",
+ "interval":"95% split-conformal absolute calibration residuals for the selected fitted model",
+ "endpoints":["all model holdout RMSE including losing models","training BIC","native-vs-NumPy prediction discrepancy","selected model interval coverage and width"],
+ "limits":"This is a measured-data predictive evaluation of supplied physical templates, not automated discovery of Malus law or new physical causal proof. Publish all measured failures."
+}

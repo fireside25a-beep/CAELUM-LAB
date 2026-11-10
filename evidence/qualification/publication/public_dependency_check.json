@@ -1,0 +1,47 @@
+[
+  {
+    "name": "numpy",
+    "version": "2.3.5",
+    "available": true
+  },
+  {
+    "name": "scipy",
+    "version": "1.17.0",
+    "available": true
+  },
+  {
+    "name": "scikit-learn",
+    "version": "1.8.0",
+    "available": true
+  },
+  {
+    "name": "statsmodels",
+    "version": "0.15.0",
+    "available": true
+  },
+  {
+    "name": "protobuf",
+    "version": "7.36.2",
+    "available": true
+  },
+  {
+    "name": "onnx",
+    "version": "1.23.2",
+    "available": true
+  },
+  {
+    "name": "onnxruntime",
+    "version": "1.31.1",
+    "available": true
+  },
+  {
+    "name": "pyarrow",
+    "version": "26.0.1",
+    "available": true
+  },
+  {
+    "name": "torch",
+    "version": "2.15.0",
+    "available": true
+  }
+]

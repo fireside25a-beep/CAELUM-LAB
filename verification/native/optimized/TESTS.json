@@ -1,0 +1,124 @@
+{
+  "profile": "optimized",
+  "tests": [
+    {
+      "name": "native_contracts",
+      "command": [
+        "@artifact/caelum-port-tests",
+        "@artifact/cp_linear_exchange.so"
+      ]
+    },
+    {
+      "name": "platform_probe",
+      "command": [
+        "@artifact/caelum-port",
+        "probe"
+      ]
+    },
+    {
+      "name": "exchange_contracts",
+      "command": [
+        "@artifact/caelum-exchange-tests"
+      ]
+    },
+    {
+      "name": "science_contracts",
+      "command": [
+        "@artifact/caelum-science-tests"
+      ]
+    },
+    {
+      "name": "dynamics_contracts",
+      "command": [
+        "@artifact/caelum-dynamics-tests"
+      ]
+    },
+    {
+      "name": "parser_mutations",
+      "command": [
+        "@artifact/caelum-parser-fuzz"
+      ]
+    },
+    {
+      "name": "lab_engine_contracts",
+      "command": [
+        "@artifact/caelum-lab-tests",
+        "@scratch"
+      ]
+    },
+    {
+      "name": "release_regressions",
+      "command": [
+        "@artifact/caelum-release-regressions"
+      ]
+    },
+    {
+      "name": "safety_basis_alias",
+      "command": [
+        "@artifact/caelum-safety-tests",
+        "basis_alias"
+      ]
+    },
+    {
+      "name": "safety_basis_atomic",
+      "command": [
+        "@artifact/caelum-safety-tests",
+        "basis_atomic"
+      ]
+    },
+    {
+      "name": "safety_holm_overlap",
+      "command": [
+        "@artifact/caelum-safety-tests",
+        "holm_overlap"
+      ]
+    },
+    {
+      "name": "safety_matrix_span",
+      "command": [
+        "@artifact/caelum-safety-tests",
+        "matrix_span"
+      ]
+    },
+    {
+      "name": "safety_dlpack_flags",
+      "command": [
+        "@artifact/caelum-safety-tests",
+        "dlpack_flags"
+      ]
+    },
+    {
+      "name": "safety_arrow_dictionary",
+      "command": [
+        "@artifact/caelum-safety-tests",
+        "arrow_dictionary"
+      ]
+    },
+    {
+      "name": "safety_csv_nul",
+      "command": [
+        "@artifact/caelum-safety-tests",
+        "csv_nul"
+      ]
+    },
+    {
+      "name": "safety_midpoint_branch",
+      "command": [
+        "@artifact/caelum-safety-tests",
+        "midpoint_branch"
+      ]
+    },
+    {
+      "name": "actual_science_consumer",
+      "command": [
+        "@artifact/caelum-science-consumer"
+      ]
+    },
+    {
+      "name": "actual_sdk_consumer",
+      "command": [
+        "@artifact/caelum-consumer-example"
+      ]
+    }
+  ]
+}

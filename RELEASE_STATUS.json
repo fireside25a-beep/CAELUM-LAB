@@ -1,0 +1,179 @@
+{
+  "release": "CAELUM 0.4.0",
+  "date": "2026-11-10",
+  "linux_x86_64": "QUALIFIED",
+  "all_platform_release": "NOT_QUALIFIED",
+  "baseline_preserved": true,
+  "one_current_source_tree": true,
+  "abi": "1.3",
+  "priorities": [
+    {
+      "id": "P0-01",
+      "description": "Component-scaled midpoint residual/inverse checks",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "tests/release_regressions.c",
+        "evidence/regressions",
+        "evidence/qualification/final_logs/ctest_optimized.log"
+      ]
+    },
+    {
+      "id": "P0-02",
+      "description": "Atomic outputs, coupled export and dangling aliases",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "evidence/qualification/file_commits/commit_qualification.json",
+        "evidence/qualification/adapter_before_after.json"
+      ]
+    },
+    {
+      "id": "P0-03",
+      "description": "Immutable snapshot hashing",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "evidence/qualification/file_commits/commit_qualification.json"
+      ]
+    },
+    {
+      "id": "P1-01",
+      "description": "Conditioned QR and stable numeric reductions",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "evidence/qualification/active_study/study_results.json",
+        "evidence/qualification/final_logs/drift.log"
+      ]
+    },
+    {
+      "id": "P1-02",
+      "description": "Versioned locale/rounding/source replay contract",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "evidence/qualification/final_logs/legacy_replay.log",
+        "cases/CASE_INDEX.json"
+      ]
+    },
+    {
+      "id": "P1-03",
+      "description": "Versioned domain-separated named random streams",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "tests/lab_tests.c",
+        "evidence/qualification/active_study/raw_active_runs.zip"
+      ]
+    },
+    {
+      "id": "P1-04",
+      "description": "Typed units/domains/observational-interventional contracts",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "tests/lab_tests.c",
+        "evidence/qualification/empirical/empirical_results.json"
+      ]
+    },
+    {
+      "id": "P1-05",
+      "description": "Bounded causal graph/SCM identification",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "evidence/qualification/active_study/study_results.json",
+        "evidence/qualification/engine_edges/edge_results.json"
+      ]
+    },
+    {
+      "id": "P1-06",
+      "description": "Integrated run/update/falsification/checkpoint/replay",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "evidence/qualification/engine_edges/edge_results.json",
+        "cases/active_finite_scm_relocated.txt"
+      ]
+    },
+    {
+      "id": "P1-07",
+      "description": "Owned learning and calibrated uncertainty",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "evidence/qualification/active_study/study_results.json",
+        "evidence/qualification/empirical/empirical_results.json"
+      ]
+    },
+    {
+      "id": "P1-08",
+      "description": "Bound semantic model export",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "cases/CASE_INDEX.json",
+        "evidence/qualification/file_commits/commit_qualification.json"
+      ]
+    },
+    {
+      "id": "P1-09",
+      "description": "Preregistered matched-budget scientific study",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "verification/studies/preregistration.json",
+        "verification/studies/empirical_preregistration.json",
+        "evidence/qualification/active_study/active_results.csv"
+      ]
+    },
+    {
+      "id": "P1-10",
+      "description": "Native workbench sharing core authority",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "evidence/qualification/workbench/ui_qualification.json",
+        "evidence/qualification/workbench_asan/ui_qualification.json"
+      ]
+    },
+    {
+      "id": "P2-01",
+      "description": "C-level assurance/fuzz/mutation/failure coverage",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "evidence/qualification/FINAL_CHECKS.json",
+        "evidence/qualification/final_logs/cbmc.log",
+        "docs/FORMAL_SCOPE.md"
+      ]
+    },
+    {
+      "id": "P2-02",
+      "description": "Platform/ABI/distribution qualification",
+      "status": "LINUX_VERIFIED_OTHER_HOSTS_UNQUALIFIED",
+      "evidence": [
+        "evidence/qualification/final_logs/relocation.log",
+        "evidence/qualification/public_abi.json"
+      ],
+      "remaining": "Actual native Windows and macOS qualification requires those hosts; no successful run is asserted."
+    },
+    {
+      "id": "P2-03",
+      "description": "Rights/notices/API/reference/provenance",
+      "status": "VERIFIED_WITHIN_DECLARED_SCOPE",
+      "evidence": [
+        "NOTICE.md",
+        "docs/API.md",
+        "evidence/SOURCE_FILES.json",
+        "LICENSE",
+        "CITATION.cff",
+        "docs/LICENSE_SCOPE.md",
+        "verification/publication/check_repository.py"
+      ]
+    }
+  ],
+  "limits": [
+    "Windows/macOS native execution was not available.",
+    "Formal verification covers stated obligations, not every C path or physical law.",
+    "New experiments consume imported measurements; no physical device was operated.",
+    "Initial headerless-CSV polynomial exports explicitly have unspecified physical units."
+  ],
+  "source_identity": "f9cf195683d46528dadf3b2072304a4ebfc5a90d0bdfb21fb38b9507a88f46ff",
+  "production_build_identity": "91b5dc288c908e0ce1910d5d3364f83c2469865d817594275f2fff06a2d7518a",
+  "publication": {
+    "edition": "github-ready-1",
+    "first_party_license": "Apache-2.0",
+    "citation_format": "CFF 1.2.0",
+    "graphs": "Simple black-background SVG and PNG, from recorded data",
+    "github_actions": "Included, not executed on GitHub here",
+    "publishing": "Owner-triggered draft only; the owner uploads and publishes"
+  }
+}
